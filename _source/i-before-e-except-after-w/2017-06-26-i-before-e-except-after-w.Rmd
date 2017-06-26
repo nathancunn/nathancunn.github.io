@@ -1,0 +1,8 @@
+---
+layout: post
+title:  i before e except after...w?
+date: "26/06/2017"
+---
+
+{% include htmlwidgets/i_e.html %}
+
