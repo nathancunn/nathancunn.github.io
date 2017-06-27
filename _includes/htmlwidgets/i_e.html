@@ -135,7 +135,7 @@ cat(words, file = "dict.txt")
 dict &lt;- read.table("dict.txt")
 ie_words &lt;- grep(&quot;ie&quot;, t(dict))
 ei_words &lt;- grep(&quot;ei&quot;, t(dict))</code></pre>
-<p>Note that each word can only feature <em>once</em> in each list. As such, while ‘weightiest’ can appear in both the <code>ie_words</code> and <code>ei_words</code> list, the word ‘zeitgeist’ only appears once in <code>ie_words</code>. This will lead to some undercounting, but I expect it to be minimal.</p>
+<p>Note that each word can only feature <em>once</em> in each list. As such, while ‘weightiest’ can appear in both the <code>ie_words</code> and <code>ei_words</code> list, the word ‘zeitgeist’ only appears once in <code>ei_words</code>. This will lead to some undercounting, but I expect it to be minimal.</p>
 <div id="i-before-e" class="section level2">
 <h2>i before e…</h2>
 <embed src="../../img/post_images/i_e/i_before_e.svg" type="image/svg+xml" />
