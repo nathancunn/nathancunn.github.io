@@ -43,18 +43,18 @@ author:
   github: nathancunn  # eg. daattali
   twitter: nathcun   # eg. daattali
   reddit: nathcun    # eg. daattali
-  linkedin: yourname  # eg. daattali
+  linkedin: nathan-cunningham-88408452  # eg. daattali
   
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  rss: true
   facebook: false
   email: true
   twitter: true
   google-plus: false
   github: true
   reddit: false
-  linkedin: false
+  linkedin: true
   xing: false
   stackoverflow: false
   snapchat: false
