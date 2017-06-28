@@ -81,7 +81,7 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <meta property="og:image" content="{% if img_src %}{{ img_src }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ "A statistics blog about all the trivial things nobody would pay me to research" }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
 
 {% if page.last_modified_at %}
