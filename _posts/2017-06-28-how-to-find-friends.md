@@ -3,7 +3,7 @@ layout: post
 title:  How to find friends as influenced people
 date: "2017-06-28 22:36:25"
 image: /figure/source/finding_friends/festival.png
-share-img: /figure/source/finding_friends/festival.png
+share-img: https://raw.githubusercontent.com/nathancunn/nathancunn.github.io/master/figure/source/finding_friends/festival.png
 
 ---
 
