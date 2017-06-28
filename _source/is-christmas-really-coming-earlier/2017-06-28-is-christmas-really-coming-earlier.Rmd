@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Is Christmas really coming earlier?
+date: "`r Sys.time()`"
+---
+
+A previous article I did considering whether or not Christmas comes earlier or not every year can be found [here](https://www.statslife.org.uk/culture/3108-is-christmas-really-coming-earlier-maybe-but-not-as-early-as-august).
