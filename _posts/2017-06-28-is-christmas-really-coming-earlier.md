@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Is Christmas really coming earlier?
+title:  Is Christmas really coming earlier every year?
 date: "2017-06-28 21:57:35"
 image: /figure/source/is-christmas-really-coming-earlier/2017-06-28-is-christmas-really-coming-earlier/christmas.png
 ---
