@@ -3,7 +3,7 @@ layout: post
 title:  Harry Potter and the Order of the Vowels
 date: "2017-06-29 08:30:10"
 image: /figure/source/harry-potter/occurrences.png
-share-img: https://raw.githubusercontent.com/nathancunn/nathancunn.github.io/master/figure/source/i-before-e/i-before-e.png
+share-img: https://github.com/nathancunn/nathancunn.github.io/blob/master/figure/source/harry-potter/occurrences.png?raw=true
 ---
 
 My post earlier this week on [why the 'except after c' rule is a bit useless](http://www.nathancunn.com/2017-06-26-i-before-e-except-after-w/) gathered [a lot more attention](https://www.washingtonpost.com/news/wonk/wp/2017/06/28/the-i-before-e-except-after-c-rule-is-a-giant-lie/) than I expected. Although largely positive feedback, inevitably when you say anything online, no matter how trivial or innocuous, you will have someone telling you that you're wrong, or that you are somehow everything that's wrong with the world:
@@ -12,7 +12,7 @@ My post earlier this week on [why the 'except after c' rule is a bit useless](ht
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 The criticisms primarily centred on:
 
--   **The rule is for children, and it definitely works if you just use words children would use \[citation needed\]** - this is a fair point, and largely why I decided to the post in the first place.
+-   **The rule is for children, and it definitely works if you just use words children would use** \[citation needed\] - this is a fair point, and largely why I decided to do the post in the first place.
 -   **Examining the rule should account for frequency of use** - this is a similar point. If the rule's only exceptions are words nobody uses then that shouldn't count against it. I don't necessarily think weighting by frequency of use is the best approach, as I'll explain later, but certainly restricting the body of words looked at makes some sense.
 -   **You're forgetting the rest of the rhyme, 'and when said A as in neighbour and weigh'** - people really seemed to get annoyed when I told them that this is completely irrelevant to whether or not the 'except after c' rule works; if you have a 'cei'/'cie' word, it doesn't matter how it's pronounced, 'cei' is what the rule suggests is correct, and 'cie' incorrect.
 
