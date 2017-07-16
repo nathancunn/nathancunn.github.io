@@ -3,7 +3,7 @@ layout: post
 title:  Who is the main side character in The Simpsons?
 date: "2017-07-16 08:30:10"
 image: /figure/source/simpsons-characters/all_seasons.png
-share-img: /figure/source/simpsons-characters/all_seasons.png
+share-img: http://www.nathancunn.com/figure/source/simpsons-characters/all_seasons.png
 ---
 The Simpsons has a rich cast of great characters, with [Wikipedia suggesting the show has somewhere around 100 recurring characters](https://en.wikipedia.org/wiki/List_of_The_Simpsons_characters). But, outside the titular family members, who can claim to be the main side character in the show? I'm not interested in who the *best* character is---because let's face it, we all know it's Roy---but which character plays the biggest role in the show.
 
