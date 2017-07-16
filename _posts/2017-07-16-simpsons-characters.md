@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Who is the main side character in The Simpsons?
-date: "2017-06-29 08:30:10"
+date: "2017-07-16 08:30:10"
 image: /figure/source/simpsons-characters/all_seasons.png
 share-img: /figure/source/simpsons-characters/all_seasons.png
 ---
