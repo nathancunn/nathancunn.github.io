@@ -1,3 +1,10 @@
+---
+layout: post
+title:  Who is the main side character in The Simpsons?
+date: "2017-06-29 08:30:10"
+image: /figure/source/simpsons-characters/all_seasons.png
+share-img: /figure/source/simpsons-characters/all_seasons.png
+---
 The Simpsons has a rich cast of great characters, with [Wikipedia suggesting the show has somewhere around 100 recurring characters](https://en.wikipedia.org/wiki/List_of_The_Simpsons_characters). But, outside the titular family members, who can claim to be the main side character in the show? I'm not interested in who the *best* character is, because let's face it, we all know it's Roy, but which character plays the biggest role in the show.
 
 I approached this by checking which characters are featured in Wikipedia's description of each episode. The aim here is to identify characters who impacted the plot of an episode in some sense, as opposed to characters who merely appeared in the episode. This isn't a perfect measure---the very first episode lists a number of characters simply due to it being their first appearance---but it should be a good proxy.
