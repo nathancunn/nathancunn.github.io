@@ -129,7 +129,7 @@ $(document).ready(function () {
 
 
 <p>The mnemonic <em>‘i before e except after c’</em> is something we’ve probably all encountered at one point or another and can be a useful trick for figuring out awkward spellings. However, an episode of <a href="https://www.youtube.com/watch?v=duqlZXiIZqA">QI I watched recently</a> claimed the rule has more exceptions than adherents, that words containing ‘cie’ actually outnumber those containing ‘cei’, rendering the latter half of the rule useless. This got me interested in two things: 1) just how useless are we talking? and 2) is it possible to come up with any modifications to the rule which <strong>aren’t</strong> useless?</p>
-<p>To do this, first I gathered a <a href="https://github.com/dwyl/english-words">list of English words</a> and loaded it up in R. The source is a txt file of over <span class="math inline">\(350,000\)</span> words. With this in hand, it’s simple to use <code>grep</code> to extract all words containing an ‘ei’/‘ie’ pair:</p>
+<p>To do this, first I gathered a <a href="https://github.com/dwyl/english-words">list of English words</a> and loaded it up in R. The source is a txt file of over 350,000 words. With this in hand, it’s simple to use <code>grep</code> to extract all words containing an ‘ei’/‘ie’ pair:</p>
 <pre class="r"><code>words &lt;- RCurl::getURL('https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt')
 cat(words, file = "dict.txt")
 dict &lt;- read.table("dict.txt")
