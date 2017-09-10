@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Fewer babies were named Katrina following Hurricane Katrina
+title:  The decline of Katrinas after Hurricane Katrina
 date: "2017-09-10 14:00:00"
 image: /figure/source/hurricane_katrina/katrina.png
 share-img: http://www.nathancunn.com/figure/source/hurricane_katrina/katrina.png
