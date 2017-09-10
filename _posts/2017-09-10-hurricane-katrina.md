@@ -2,7 +2,7 @@
 layout: post
 title:  Hurricane Katrina led to a sharp fall in the number of babies born named Katrina
 date: "2017-07-16 08:30:10"
-image: /figure/source/simpsons-characters/all_seasons.png
+image: /figure/source/hurricane-katrina/katrina.png
 share-img: http://www.nathancunn.com/figure/source/hurricane-katrina/katrina.png
 ---
 
