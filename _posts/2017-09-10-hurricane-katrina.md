@@ -6,7 +6,7 @@ image: /figure/source/hurricane_katrina/katrina.png
 share-img: http://www.nathancunn.com/figure/source/hurricane_katrina/katrina.png
 ---
 
-![No. of babies born named Katrina 1995 - 2015](figure/source/hurricane_katrina/katrina.png)
+![No. of babies born named Katrina 1995 - 2015](https://raw.githubusercontent.com/nathancunn/nathancunn.github.io/master/figure/source/hurricane_katrina/katrina.png)
 
 The data for this plot are all freely available on the site for the US government's open data, specifically [here](https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data). If you'd like to recreate this plot yourself you'll need to download and unzip the data. The data come in individual files for each year from 1880-2016, listing the most popular names for boys and girls born in that year. Due to privacy restrictions, only names which were used at least five times in the specified year are included. The first step is to concatenate these datafiles into a single dataset, which we can do with the following R code.
 
