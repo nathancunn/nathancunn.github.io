@@ -34,7 +34,7 @@ for(file in names_files) {
 <iframe src="https://nathcunn.shinyapps.io/simpsons_decline/" style="border: none; width: 100%; height: 100%" scrolling="no"></iframe>
 
 <div style='width: 100%; height: 0px; padding-bottom: 60%;'>
-<iframe src="https://nathcunn.shinyapps.io/simpsons_decline/" style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%'></iframe>
+<iframe src="https://nathcunn.shinyapps.io/simpsons_decline/" style='left: 0px; top: 0px; width: 100%; height: 100%'></iframe>
 </div>
 
 With that done, plotting the data is straightforward using `ggplot2`. The annotated arrows were added after in Inkscape.
