@@ -32,6 +32,11 @@ for(file in names_files) {
 
 ```
 
+<p style="width: 100%; height: 0px; padding-bottom: 56.25%; position: relative;">
+	<iframe style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;" src="https://www.youtube-nocookie.com/embed/mc2_zYDuHC4" frameborder="0" allowfullscreen="">
+	</iframe>
+</p>
+
 
 With that done, plotting the data is straightforward using `ggplot2`. The annotated arrows were added after in Inkscape.
 
