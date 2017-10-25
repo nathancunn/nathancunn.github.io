@@ -32,7 +32,7 @@ for(file in names_files) {
 
 ```
 
-<iframe src="https://nathcunn.shinyapps.io/simpsons_decline/" style='border: none; left: 0px; top: 0px; width: 100%; height: 100%'></iframe>
+<iframe src="https://nathcunn.shinyapps.io/simpsons_decline/" style='border: none; left: 0px; top: 0px; width: 100%; height: 540px'></iframe>
 
 With that done, plotting the data is straightforward using `ggplot2`. The annotated arrows were added after in Inkscape.
 
