@@ -44,3 +44,4 @@ ggplot(names_dat[names_dat$name == name & names_dat$sex == sex & names_dat$year 
        geom_line() +
        geom_vline(xintercept = 2005)
 ```
+<iframe src="https://nathcunn.shinyapps.io/simpsons_decline/" />
