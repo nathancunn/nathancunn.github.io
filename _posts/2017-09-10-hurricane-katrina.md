@@ -32,7 +32,7 @@ for(file in names_files) {
 
 ```
 
-<p style="width: 100%; height: 0px; padding-bottom: 150%; position: relative;">
+<p style="width: 100%; height: 0px; padding-bottom: 130%; position: relative;">
 	<iframe style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;" src="https://nathcunn.shinyapps.io/simpsons_decline/" frameborder="0" allowfullscreen="">
 	</iframe>
 </p>
