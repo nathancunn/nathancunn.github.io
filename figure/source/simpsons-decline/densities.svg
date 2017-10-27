@@ -5,15 +5,38 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 654.66669 368"
    height="368"
    width="654.66669"
    xml:space="preserve"
    id="svg703"
-   version="1.1"><metadata
+   version="1.1"
+   sodipodi:docname="densities.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview231"
+     showgrid="false"
+     inkscape:zoom="2.4539917"
+     inkscape:cx="227.26582"
+     inkscape:cy="179.22668"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g713" /><metadata
      id="metadata709"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs707" /><g
      transform="matrix(1.3333333,0,0,1.3333333,0,9.2e-6)"
      id="g711"><g
@@ -23,7 +46,8 @@
          d="M 0,0 H 491 V 276 H 0 Z" /><path
          id="path717"
          style="fill:#7099e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="M 0,0 H 491 V 276 H 0 Z" /><g
+         d="M 0,276 H 491 V 0 H 0 Z"
+         inkscape:connector-curvature="0" /><g
          transform="scale(1,-1)"
          id="g719"><path
            id="path721"
@@ -176,7 +200,7 @@
          transform="translate(292.98525,253.45313)"><tspan
            id="tspan807"
            y="0"
-           x="0"></tspan></text>
+           x="0" /></text>
 <text
          id="text813"
          style="font-variant:normal;font-weight:normal;font-size:11px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"
@@ -296,13 +320,6 @@
            id="tspan875"
            y="0"
            x="0">y</tspan></text>
-<text
-         id="text881"
-         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Segoe UI Symbol';-inkscape-font-specification:SegoeUISymbol;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"
-         transform="rotate(-90,47.910457,19.558893)"><tspan
-           id="tspan879"
-           y="0"
-           x="0"></tspan></text>
 <text
          id="text885"
          style="font-variant:normal;font-weight:normal;font-size:9.89999866px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"

@@ -19,7 +19,7 @@
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"><metadata
      id="metadata772"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs770"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath792"><path
@@ -39,17 +39,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="690"
-     inkscape:window-height="480"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview768"
      showgrid="false"
-     inkscape:zoom="0.45213848"
-     inkscape:cx="327.33334"
-     inkscape:cy="184"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="g774" /><g
+     inkscape:zoom="2.5576815"
+     inkscape:cx="70.343625"
+     inkscape:cy="267.6479"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g838" /><g
      id="g774"
      inkscape:groupmode="layer"
      inkscape:label="ratings"
@@ -271,13 +271,6 @@
            y="0"
            id="tspan916">.</tspan></text>
 <text
-         transform="translate(291.30398,253.59375)"
-         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Segoe UI Symbol';-inkscape-font-specification:SegoeUISymbol;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"
-         id="text922"><tspan
-           x="0"
-           y="0"
-           id="tspan920"></tspan></text>
-<text
          transform="rotate(-90,89.80469,61.453126)"
          style="font-variant:normal;font-weight:normal;font-size:11px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"
          id="text926"><tspan
@@ -368,13 +361,6 @@
            x="0"
            y="0"
            id="tspan972">g</tspan></text>
-<text
-         transform="rotate(-90,53.136272,24.784708)"
-         style="font-variant:normal;font-weight:normal;font-size:11px;font-family:'Segoe UI Symbol';-inkscape-font-specification:SegoeUISymbol;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"
-         id="text978"><tspan
-           x="0"
-           y="0"
-           id="tspan976"></tspan></text>
 <text
          transform="translate(247.10156,267.99609)"
          style="font-variant:normal;font-weight:normal;font-size:9.89999866px;font-family:Arial;-inkscape-font-specification:ArialMT;writing-mode:lr-tb;fill:#fafafa;fill-opacity:0.8;fill-rule:nonzero;stroke:none"
