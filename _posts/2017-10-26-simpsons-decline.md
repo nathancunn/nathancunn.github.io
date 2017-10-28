@@ -9,7 +9,7 @@ share-img: http://www.nathancunn.com/figure/source/simpsons-decline/simpsons_og.
 It'd be difficult to argue against the fact that The Simpsons isn't quite the show it once was. Even just a quick glance at the IMDb ratings is enough to see that the show is routinely not hitting the highs it did so regularly in the earlier seasons.
 
 <center>
-<embed src="../figure/source/simpsons-decline/original_ratings.svg" type="image/svg+xml" />
+<img src="../figure/source/simpsons-decline/original_ratings.svg" style="width:100%" />
 </center>
 
 I'd suggest that the scale of the decline is lilely even worse than it appears here due to [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias)---presumably most of the people rating episodes in season 20 are those who enjoyed seasons 1-19---although I'm not sure how one might easily go about correcting for that.
@@ -19,7 +19,6 @@ The decline was much like Fox News' transition to a hardcore sex channel: so gra
 But if not then, then when did the golden age of The Simpsons come to an end? If we go back to look at the ratings of the show we can see they clearly arise from a bimodal distribution; that is, there is a group of episodes rated in and around 7/10 and an another group with ratings around 8/10.
 
 <center>
-<embed src="../figure/source/simpsons-decline/original_densities.svg" type="image/svg+xml" />
 <img src="../figure/source/simpsons-decline/original_densities.svg" style="width:100%" />
 </center>
 
@@ -43,11 +42,11 @@ In order to choose the correct episode, we assume episode ratings in each group 
 I coded this up in R (below) and checked for every possible combination (the code runs basically instantaneously so it wasn't worth trying to be smart with this). The episode that the data best supported being the end of the golden age is episode 214, or season 10 episode 11, *Wild Barts can't be Broken*, meaning *The Principal and the Pauper* (S09E02) didn't mark the end of The Simpsons best days.
 
 <center>
-<embed src="../figure/source/simpsons-decline/ratings.svg" type="image/svg+xml" />
+<img src="../figure/source/simpsons-decline/ratings.svg" style="width:100%" />
 </center>
 
 <center>
-<embed src="../figure/source/simpsons-decline/densities.svg" type="image/svg+xml" />
+<img src="../figure/source/simpsons-decline/densities.svg" style="width:100%" />
 </center>
 
 With a rating of 7.7 *Wild Barts can't be Broken* is the episode where a curfew is imposed on the children of Springfield after Homer goes on a drunken spree. The next episode, *Sunday, Cruddy Sunday*, in which Homer goes to the Superbowl has a rating of 6.9, quite a bit below the average rating of earlier episodes, meaning counting it as a golden age episode would only serve to make the golden age worse minimising the differences between the two groups.
