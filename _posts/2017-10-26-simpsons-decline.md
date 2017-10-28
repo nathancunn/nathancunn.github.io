@@ -12,7 +12,7 @@ It'd be difficult to argue against the fact that The Simpsons isn't quite the sh
 <img src="../figure/source/simpsons-decline/original_ratings.svg" style="width:100%" />
 </center>
 
-I'd suggest that the scale of the decline is lilely even worse than it appears here due to [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias)---presumably most of the people rating episodes in season 20 are those who enjoyed seasons 1-19---although I'm not sure how one might easily go about correcting for that.
+I'd suggest that the scale of the decline is likely even worse than it appears here due to [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias)---presumably most of the people rating episodes in season 20 are those who enjoyed seasons 1-19---although I'm not sure how one might easily go about correcting for that.
 
 The decline was much like Fox News' transition to a hardcore sex channel: so gradual that you didn't notice it happening, making it difficult to pinpoint exactly when the heyday of The Simpsons came to an end. The general consensus seems to be somewhere around season nine or ten, with some pinpointing *The Principal and the Pauper* (S09E02---the Armin Tamzarian episode) as the watershed moment, with even Harry Shearer (the voice of Tamzarian/Skinner) slamming it as disrespectful to the fans and Matt Groening listing the episode as a mistake and one of his least favourite episodes. Personally I disagree with this being the end of The Simpsons as we knew it, not only because that season had some great episodes, such as *The Cartridge Family*, but also the episode gave us one of my [favourite Simpsons scenes](https://www.youtube.com/watch?v=YDqYVNQIHRg).
 
