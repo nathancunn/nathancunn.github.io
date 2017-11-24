@@ -8,7 +8,7 @@ share-img: http://www.nathancunn.com/figure/source/christmas-reddit/christmas_og
 
 I promised myself I wouldn't do this again. I promised it after [writing this article 3 years ago](https://www.significancemagazine.com/culture/79-does-christmas-really-come-earlier-every-year) and I promised it again when I [wrote a ~~corrected~~ less incorrect version last year](https://www.significancemagazine.com/culture/63-is-christmas-really-coming-earlier-maybe-but-not-as-early-as-august). But, then I discovered FiveThirtyEight's [How the Internet Talks](https://projects.fivethirtyeight.com/reddit-ngram/?keyword=lebron.rodgers.trout&start=20071015&end=20170731&smoothing=10) project and couldn't resist trying to answer this question with some new data.
 
-The notion of Christmas coming earlier every year has been a regular feature in my life, with it not truly feeling like the Christmas period until someone has rolled their eyes and said "it gets earlier year" or given an exasperated "already!?" at the sight of the Christmas lights going up around town. Some people take it worse than others, however, as this Daily Mail headline from last year highlights:  
+The notion of Christmas coming earlier every year has been a regular feature in my life, with it not truly feeling like the Christmas period until someone has rolled their eyes and said "it gets earlier ever year" or given an exasperated "already!?" at the sight of the Christmas lights going up around town. Some people take it worse than others, however, as this Daily Mail headline from last year highlights:  
 
 <center>
 <img src="../figure/source/christmas-reddit/dailymail.png" style="width:75%" />
