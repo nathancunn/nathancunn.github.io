@@ -32,12 +32,13 @@ So, has Christmas been coming earlier?
 </center>
 
 
+2016 aside, there certainly is an argument to be made for Christmas coming earlier with five of the six previous years getting into the festive spirit earlier than the preceding year.
+
 <center>
 <img src="../figure/source/christmas-reddit/all_values.svg" style="width:100%" />
 </center>
 
-
-2016 aside, there certainly is an argument to be made for Christmas coming earlier with five of the six previous years getting into the festive spirit earlier than the preceding year. It's hard to know what exactly happened to cause such a drastic change in 2016. Given that Reddit is heavily dominated by the American audience, it's possible that their election was stealing their focus and they didn't switch their minds to Christmas until after the election on November 8th. My assumption that Americans switched to Christmas mode once Thanksgiving was over seems incorrect as only one of the years I looked at had Thanksgiving at an earlier date than 2016 did.
+ It's hard to know what exactly happened to cause such a drastic change in 2016. Given that Reddit is heavily dominated by the American audience, it's possible that their election was stealing their focus and they didn't switch their minds to Christmas until after the election on November 8th. My assumption that Americans switched to Christmas mode once Thanksgiving was over seems incorrect as only one of the years I looked at had Thanksgiving at an earlier date than 2016 did.
 
 <center>
 <img src="../figure/source/christmas-reddit/densities.svg" style="width:100%" />
