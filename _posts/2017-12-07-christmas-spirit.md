@@ -2,8 +2,8 @@
 layout: post
 title:  Distilling the Christmas spirit
 date: "2017-12-07 14:00:00"
-image: /figure/source/christmas-reddit/christmas-sprit-og.png
-share-img: http://www.nathancunn.com/figure/source/christmas-reddit/christmas-spirit-og.png
+image: /figure/source/christmas-reddit/christmas-sprit-og.jpg
+share-img: http://www.nathancunn.com/figure/source/christmas-reddit/christmas-spirit-og.jpg
 ---
 
 People really love alcohol at Christmas. Or, at the very least they [love searching for alcohol at Christmas.](https://trends.google.co.uk/trends/explore?date=today%205-y&q=%2Fm%2F03dg3,vodka,rum,brandy,%2Fm%2F082bv) In each of the last five years, the search volume for some of the most popular alcoholic spirits has peaked dramatically around the week of Christmas. Is this what people mean when they talk about searching for the Christmas spirit? If so, which is **the** Christmas spirit? Which, more so than any other, do we associate with Christmas above and beyond any other time of the year?
