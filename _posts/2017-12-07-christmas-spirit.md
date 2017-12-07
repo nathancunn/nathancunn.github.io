@@ -2,7 +2,7 @@
 layout: post
 title:  Distilling the Christmas spirit with stats
 date: "2017-12-07 14:00:00"
-image: /figure/source/christmas-reddit/christmas-sprit-og.jpg
+image: /figure/source/christmas-reddit/christmas-spirit-og.jpg
 share-img: http://www.nathancunn.com/figure/source/christmas-reddit/christmas-spirit-og.jpg
 ---
 
