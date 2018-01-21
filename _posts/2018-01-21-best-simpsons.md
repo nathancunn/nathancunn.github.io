@@ -6,14 +6,14 @@ image: /figure/source/simpsons-best-episode/dignity.jpg
 share-img: http://www.nathancunn.com/figure/source/simpsons-best-episode/dignity.jpg
 ---
 
-I'm one of those annoying people who makes Simpsons references at any and every opportunity. In fact in recent years I reckon my main interaction with the show has been making obscure references to it rather than actually watching episodes. I'm the worst, I know, but, I also know I'm not the only one who engages with the show in this way. The bizarre phenomenon of [Simpsons shitposting](http://www.reddit.com/r/simpsonsshitposting)---where classic Simpsons scenes are frankensteined together often to [hilarious effect](https://www.reddit.com/r/simpsonsshitposting/comments/7qay4y/steamed_sugar/)---is evidence of how pervasive this form of engaging with the show is.
+I'm one of those annoying people who make Simpsons references at any and every opportunity. In fact, in recent years I reckon my main interaction with the show has been making obscure references to it rather than actually watching episodes. I'm the worst, I know, but, I also know I'm not the only one who engages with the show in this way. The bizarre phenomenon of [Simpsons shitposting](http://www.reddit.com/r/simpsonsshitposting)---where classic Simpsons scenes are frankensteined together often to [hilarious effect](https://www.reddit.com/r/simpsonsshitposting/comments/7qay4y/steamed_sugar/)---is evidence of how pervasive this form of engagement is.
 At over 600 episodes, and no sign of stopping, there's a suitable reference to be made for almost any situation, with some specious claims that the show has even predicted a number of future events such as Donald Trump's presidency, Disney buying Fox, and even 9/11. Of course, the reality is that these things were either references to events contemporary to the episode's airing or, in the case of the 9/11 prediction, just incredibly tenuous associations.
 
 For those who enjoy the show the way I do, the best episode is the one which provides the most material to reference. But, how to find which this is? I'm generally of the opinion that asking someone to tell you their favourite of something is not the best way of finding out the answer---e.g. if you asked me to name my favourite song, you'd find a very different answer than if you consulted my most frequently played on Spotify. It's not just because of my deep shame at how much I love Kiss From a Rose by Seal, people just aren't very good at defining their preferences. So, a good start to answering the question of which Simpsons episode is the best/most quotable is to find out which episodes people actually regularly make reference to.
 
 The Simpsons subreddit, [/r/TheSimpsons](http://www.reddit.com/r/TheSimpsons),
 is a community of just under 200,000 members sharing Simpsons news, discussions,
-and quotes from their favourite Simpsons episodes. What makes this particularly useful as a source of data is that a large number of the posts are tagged with the episode number they relate to, giving a good source of data for what episodes people commonly refer to. I scraped the last two years worth of posts made in /r/TheSimpsons using the Python tool  [subredditarchive](https://github.com/peoplma/subredditarchive). I know the choice of this timeframe will bias the results against seasons being aired in that period, but I'm sure we can all agree that the best episode of the Simpsons is not in season 20+. In total I scraped just under 42,000 posts. Not all of these are episode references, however, and of those that are, not all have the appropriate episode tag, so a little tidying was needed to be done in R:
+and quotes from their favourite Simpsons episodes. What makes this particularly useful as a source of data is that a large number of the posts are tagged with the episode number they relate to, giving a good source of data for what episodes people commonly refer to. I scraped the last two years worth of posts made in /r/TheSimpsons using the Python tool  [subredditarchive](https://github.com/peoplma/subredditarchive). I know the choice of this timeframe will bias the results against seasons being aired in that period, but I'm sure we can all agree that the best episode of the Simpsons is not in season 20+. In total, I scraped just under 42,000 posts. Not all of these are episode references, however, and of those that are, not all have the appropriate episode tag, so a little tidying was needed to be done in R:
 
 ``` r
 # Convert to lower case
@@ -24,7 +24,7 @@ simpsons_df <- simpsons_df[ep_refs, ]
 ```
 
   - `tolower()` converts the argument to all lower case letters
-  - `grep("find this", in_this)` is a find function that allows for pattern matching. In this case we're looking for strings of the form s**n**e**n** (with **n** indicating a number). To specify this in `grep` you can search for the pattern `s[0-9]+e[0-9]+`, where `[0-9]` represents any number, `+` indicates one or more instances of a number should be found, and `s` and `e` represent themselves.
+  - `grep("find this", in_this)` is a find function that allows for pattern matching. In this case, we're looking for strings of the form s**n**e**n** (with **n** indicating a number). To specify this in `grep` you can search for the pattern `s[0-9]+e[0-9]+`, where `[0-9]` represents any number, `+` indicates one or more instances of a number should be found, and `s` and `e` represent themselves.
 
 Afterwards, I was down to 23,903 suitably tagged posts, submitted by just over 1,000 different redditors. Next up I needed to ensure the posts were labelled in a consistent manner as R won't know that S6E2 is the same as S06E02, S6E02, and S06E2.
 
@@ -72,7 +72,7 @@ in which Homer becomes the power plant's union leader in a bid to win back their
 ### 2. Marge vs the Monorail (S04E12, 201 posts)
 ![Mono means one, and rail means rail](../figure/source/simpsons-best-episode/monorail.jpg)
 
-in which Springfield falls prey to a conman named Lyle Lanley who sells them a monorail. If you don't know what a monorail is, "mono" means one, and "rail" means rail, and that concludes our intensive three week course.
+in which Springfield falls prey to a conman named Lyle Lanley who sells them a monorail. If you don't know what a monorail is, "mono" means one, and "rail" means rail, and that concludes our intensive three-week course.
 ### 3. The PTA disbands (S06E21, 198 posts)
 ![Oh you better believe that's a paddlin'](../figure/source/simpsons-best-episode/pta.jpg)
 
@@ -80,7 +80,7 @@ in which the teachers of Springfield Elementary strike and are replaced by regul
 ### 4. Homer Badman (S06E09, 188 posts)
 ![Dramatisation, may not have happened](../figure/source/simpsons-best-episode/homer_badman.jpg)
 
-in which Homer is villified for committing sexual harrassment after grabbing the babysitter's sweet can in an attempt to recover the rarest gummy of them all.
+in which Homer is vilified for committing sexual harassment after grabbing the babysitter's sweet can in an attempt to recover the rarest gummy of them all.
 ### 5. $pringfield (S05E10, 187 posts)
 ![That's a right triangle, ya idiot!](../figure/source/simpsons-best-episode/springfield.jpg)
 
