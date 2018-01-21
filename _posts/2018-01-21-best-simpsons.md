@@ -2,7 +2,7 @@
 layout: post
 title:  Which is the best/most quotable Simpsons episode??
 date: "2018-01-21 14:00:00"
-image: /figure/source/simpsons-decline/dignity.jpg
+image: /figure/source/simpsons-best-episode/dignity.jpg
 share-img: http://www.nathancunn.com/figure/source/simpsons-best-episode/dignity.jpg
 ---
 
