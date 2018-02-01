@@ -55,6 +55,7 @@ It's remarkable that the show managed to go for over nine seasons, and over 200 
 
 Although The Simpsons isn't quite the show it once was, the decline in the show's latter seasons is more testament to the impossibly high standards set by the earlier seasons than it is an indictment of what the show became.
 
+If you like reading statistical analyses of The Simpsons, you might be interested in my other posts: [What is the best/most quotable Simpsons episode?](http://www.nathancunn.com/2018-01-21-best-simpsons/) and [Who is the main side character in The Simpsons?](http://www.nathancunn.com/2017-07-16-simpsons-characters/)
 
 If you happen to be interested in how I did this analysis, either to try it yourself or to pick holes in it, the code is below. All analysis was done in R, with the plots done using `ggplot2` and `shiny` for interactivity.
 
