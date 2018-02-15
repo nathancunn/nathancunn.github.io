@@ -25,7 +25,7 @@ But if not then, then when did the golden age of The Simpsons come to an end? If
 We know that many of the episodes in this higher rated group were part of the earlier seasons, although some of the later episodes will be in there too. In order to separate these out we could consider performing cluster analysis on the data, essentially finding a way of grouping the episodes so that those with similar ratings are placed in groups together. A standard clustering approach would just group good episodes and bad episodes. However, I want to alter this slightly in that I only want a group to be made up of a single contiguous group of episodes; basically, if the episodes of season 4 are in the same group as the episodes of season 6, then the episodes of season 5 must also be in that group. This means we can define the golden age of The Simpsons as a single stretch of persistently high quality episodes. Other than being a sensible thing to do, this also simplifies the analysis greatly, as while there are many ways to allocate episodes to two groups, uncovering two contiguous groups simply amounts to finding the episode where the first group ends. Ideally we would like to find the episode for which there is the greatest difference between the ratings of all previous episodes and all subsequent episodes.
 
 In order to see this a bit clearer consider the effect of setting this threshold below:
-<p style="width: 100%; height: 0px; padding-bottom: 150%; position: relative;">
+<p style="width: 100%; height: 0px; padding-bottom: 125%; position: relative;">
 	<iframe style="width: 100%; height: 100%; position: absolute; left: 0px; top: 0px;" src="https://nathcunn.shinyapps.io/simpsons_decline/" frameborder="0" allowfullscreen="">
 	</iframe>
 </p>
