@@ -3,7 +3,7 @@ layout: post
 title:  How to avoid getting a middle seat on Ryanair flights
 date: "2018-04-20 13:00:00"
 image: /figure/source/ryanair-seats/ryanair_new_done.png
-share-img: /figure/source/ryanair-seats/ryanair_new_done.png
+share-img: http://www.nathancunn.com/figure/source/ryanair-seats/ryanair_new_done.png
 ---
 
 I've noticed a lot of indignation lately towards the perceived change in how Ryanair allocates seats. For those unfamiliar with budget airline policies, Ryanair assigns you a seat at random unless you pay a charge---typically between €4 and €10. The ire has been directed at the claim that Ryanair have moved from a system where free seats are assigned completely at random to deliberately assigning you a seat you don't want: giving you a middle seat or splitting up groups. To the best of my knowledge Ryanair denied these claims until presented with the [statistical improbability of their allocations being truly random](http://www.ox.ac.uk/news/2017-06-29-ryanair-random-seat-allocation-not-so-random-says-oxford-university-expert-0). Personally, I found the outrage to be a bit misplaced: even after paying for a preferred seat allocation Ryanair is still regularly the cheapest option available, but, mostly because it actually makes it easier, as a lone traveler, to avoid a middle seat.
