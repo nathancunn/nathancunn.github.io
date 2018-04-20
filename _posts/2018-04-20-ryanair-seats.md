@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Why Ryanair's seating policy is better for you
-date: "2018-01-21 14:00:00"
+date: "2018-04-20 13:00:00"
 image: /figure/source/ryanair-seats/ryanair_new_done.png
 share-img: /figure/source/ryanair-seats/ryanair_new_done.png
 ---
