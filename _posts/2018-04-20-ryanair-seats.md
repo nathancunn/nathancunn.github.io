@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to avoid getting a middle seat on Ryanair flights
+title:  How to avoid getting the middle seat on Ryanair flights
 date: "2018-04-20 13:00:00"
 image: /figure/source/ryanair-seats/ryanair_new_done.png
 share-img: http://www.nathancunn.com/figure/source/ryanair-seats/ryanair_new_done.png
