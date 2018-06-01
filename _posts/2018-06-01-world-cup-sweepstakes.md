@@ -6,7 +6,7 @@ image: /figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 share-img: http://www.nathancunn.com/figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 ---
 
-Like many others at this time, I'm sure, my friends and I tried to coordinate a sweepstakes for the upcoming World Cup. For anyone unaware, the general format of a World Cup sweepstakes is:
+Like many others are doing at this time, I'm sure, my friends and I are trying to coordinate a sweepstakes for the upcoming World Cup. For anyone unaware, the general format of a World Cup sweepstakes is:
 32 people (or some factor, thereof) pledge an equal sum of money; each draws a competing nation
  from a hat; the person who draws the winning team takes all the cash. Pretty simple.
  In our case, however, the friends I'm organising with all live in different countries, so short of some sort of Sisterhood of the Travelling Pants style arrangement, drawing teams from a hat is out of the question.
