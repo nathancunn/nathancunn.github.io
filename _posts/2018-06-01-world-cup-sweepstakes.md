@@ -9,7 +9,7 @@ share-img: http://www.nathancunn.com/figure/source/world-cup-sweepstakes/sweepst
 My friends and I recently tried to coordinate a sweepstakes for the upcoming World Cup. For anyone unaware, the general format of a World Cup sweepstakes is:
 32 people (or some factor, thereof) pledge an equal sum of money; each draws a competing nation
  from a hat; the person who draws the winning team takes all the cash. Pretty simple.
- In my case, however, the friends I'm organising with all live in different countries, so short of some sort of Sisterhood of the Travelling Pants style arrangement, drawing teams from a hat is out of the question.
+ In our case, however, the friends I'm organising with all live in different countries, so short of some sort of Sisterhood of the Travelling Pants style arrangement, drawing teams from a hat is out of the question.
 
 Well, we could have one trustworthy person draw a team for everyone from a hat. But, you might
 find you trust that person much less if they end up with, say, Germany than if they draw themselves Saudi Arabia.
