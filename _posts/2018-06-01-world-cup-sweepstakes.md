@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Organising your World Cup sweepstakes using R
-date: "2018-04-20 13:00:00"
+date: "2018-06-01 11:00:00"
 image: /figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 share-img: http://www.nathancunn.com/figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 ---
