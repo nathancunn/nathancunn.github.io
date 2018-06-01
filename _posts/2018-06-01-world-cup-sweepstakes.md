@@ -14,10 +14,10 @@ Like many others at this time, I'm sure, my friends and I tried to coordinate a 
 We could have arranged for one trustworthy person to draw a team for everyone from a hat. But, you might discover you trust that person much less if they end up with, say, Germany than if they draw themselves Saudi Arabia. Another suggestion floated was to do a random sort of names and countries in Excel, but this falls victim to the same
 issue as before in that the person in charge can do the draw over and over until they get a team they're happy with. And even if they don't, you'll never satisfy everyone that the draw was done fairly, with people's perception of fairness positively correlated to how good their chosen team are.
 
-So, we need a way to draw teams which we can trust that none of us could possibly hold any influence over. Before explaining how I did this in R, I need to give a very brief introduction to pseudo-random numbers.
+So, we need to draw teams in a way which we all trust none of us could possibly hold any influence over. Before explaining how I did this in R, I need to give a very brief introduction to pseudo-random numbers.
 
 When you ask your computer for random numbers, what you get aren't strictly
-random. For general purposes they're as good as random, but they are generated deterministically using an algorithm. Consider generating two sets of five normally-distributed numbers in R; knowing the
+random. For general purposes they're as good as random, but they are actually deterministically generated using an algorithm. Consider generating two sets of five normally-distributed numbers in R; knowing the
 first group won't help you figure out what the next will be:
 ```r
 rnorm(5)
@@ -26,8 +26,7 @@ rnorm(5)
 [1]  0.5060559 -0.5747400 -0.5466319 -0.5644520 -0.8900378
 ```
 
- However, the number *is* knowable in advance. These numbers are referred to as pseudo-random, and their deterministic nature
- is actually a benefit as opposed to a hindrance. Say you're performing some analysis which has some random aspect to it,
+ However, these numbers *are* knowable in advance. These are what are referred to as pseudo-random numbers, and their deterministic nature is actually a benefit as opposed to a hindrance. Say you're performing some analysis which has some random aspect to it,
  having an algorithmically generated list of numbers means your results can be reproduced at a later date.
 
  In order to reproduce a sequence of random numbers, though, you'll need to know what's known as the random seed used to generate those numbers.
@@ -46,8 +45,7 @@ rnorm(5)
 ```
 
 Now, back to the World Cup sweepstakes. Doing the draw is just randomly ordering the countries and matching these to the names. First off, we have to input all the participants and countries into vectors in R. Note that the resulting
-pairings will depend on the order that these are input, as such I decided to sort them alphabetically, to
-avoid any suggestion that the order benefits me.
+pairings will depend on the order that these are input, as such I decided to sort them alphabetically, to avoid any suggestion that the order of input benefits me.
 
 ``` r
 names <- sprintf("person %d", 1:32) # Replace this with actual names
@@ -61,22 +59,20 @@ countries <- sort(c("France", "Germany", "Spain", "England", "Belgium",
 
 ```
 
-So that all of us get the same draw, we'll all need to set the same random seed in advance. But, in order to allay any fears of a fix, we need to specify the random seed using an external source of randomness upon which none of us have control. On top of this, the chosen seed should have enough potential variation to account for
-a large number of possibilities, e.g. if you did something like take the average of the day everyone was born, the
-seed can only take 31 different values (the seed is a whole number),
-meaning only 31 different draws are possible---and it's likely that none of those possibilities include you getting Germany.
+So that all of us get the same draw, we'll all need to set the same random seed before drawing countries. But, in order to allay any fears of a fix, we need to specify the random seed using an external source of randomness upon which none of us have control. On top of this, the chosen seed should have enough potential variation to account for
+a large number of possibilities---if, for example, you did something like take the average of the day everyone was born, the seed can only take 31 different values (the seed is a whole number), meaning only 31 different draws are possible---and it's likely that none of those possibilities include you getting Germany.
 
- In my case, I chose the volume traded on the FTSE100 for May 31st, having agreed on this ahead of this figure being knowable. None of us could know this in advance, or have any meaningful influence on it. Furthermore, the range of possible values is large enough to allow for many possibilities to be covered---as there are 32! ways of doing this draw, and the range of likely trading volumes will be
- considerably less than this we won't cover every single possibility, but we should cover enough to keep everyone happy.
+ In my case, I chose the volume traded on the FTSE100 for May 31st, having agreed on this ahead of time. None of us could know this in advance, or have any meaningful influence on it. Furthermore, the range of possible values is large enough to allow for many possibilities to be covered---as there are 32! ways of doing this draw, and the range of likely trading volumes will be considerably less than this we won't cover *every* possibility, but we should cover enough to keep everyone happy.
   We can get the FTSE data using the `quantmod` package in R:
 
 ``` r
+library(quantmod)
 getSymbols("^FTSE", src = "yahoo", from = as.Date("2018-05-31"), to = as.Date("2018-05-31"))
 set.seed(FTSE[, "FTSE.Volume"])
 data.frame(Name = names, Country = sample(countries))
 ```
 
-If your friends aren't up for using R you could always set up a Shiny App to share with them:
+Now we all can run this code separately and get the same draw and trust that none of us could have influenced the results in our favour. If your friends aren't familiar with R you could do as I did and set up a Shiny App to share with them:
 
 ``` r
 library(shiny)
