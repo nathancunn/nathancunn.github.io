@@ -6,14 +6,12 @@ image: /figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 share-img: http://www.nathancunn.com/figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 ---
 
-My friends and I recently tried to coordinate a sweepstakes for the upcoming World Cup. For anyone unaware, the general format of a World Cup sweepstakes is:
+Like many others at this time, I'm sure, my friends and I tried to coordinate a sweepstakes for the upcoming World Cup. For anyone unaware, the general format of a World Cup sweepstakes is:
 32 people (or some factor, thereof) pledge an equal sum of money; each draws a competing nation
  from a hat; the person who draws the winning team takes all the cash. Pretty simple.
  In our case, however, the friends I'm organising with all live in different countries, so short of some sort of Sisterhood of the Travelling Pants style arrangement, drawing teams from a hat is out of the question.
 
-Well, we could have one trustworthy person draw a team for everyone from a hat. But, you might
-find you trust that person much less if they end up with, say, Germany than if they draw themselves Saudi Arabia.
-One suggestion floated was to do a random sort of names and countries in Excel, but this falls victim to the same
+We could have arranged for one trustworthy person to draw a team for everyone from a hat. But, you might discover you trust that person much less if they end up with, say, Germany than if they draw themselves Saudi Arabia. Another suggestion floated was to do a random sort of names and countries in Excel, but this falls victim to the same
 issue as before in that the person in charge can do the draw over and over until they get a team they're happy with. And even if they don't, you'll never satisfy everyone that the draw was done fairly, with people's perception of fairness positively correlated to how good their chosen team are.
 
 So, we need a way to draw teams which we can trust that none of us could possibly hold any influence over. Before explaining how I did this in R, I need to give a very brief introduction to pseudo-random numbers.
