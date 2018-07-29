@@ -53,6 +53,7 @@ As this is now my third time writing this article, I looked at the date the prev
 All this analysis was done in R, with plots done in ggplot2 and tidied up after in Inkscape. The data comes from [Reddit](http://www.reddit.com) via [FiveThirtyEight](https://projects.fivethirtyeight.com/reddit-ngram/?keyword=lebron.rodgers.trout&start=20071015&end=20170731&smoothing=10).
 
 <script type="text/javascript" src="//d3js.org/d3.v5.min.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
 <script type = "text/javascript">
     // SVG properties
     var w = $("#plotdiv").width();
