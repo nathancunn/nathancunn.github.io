@@ -131,7 +131,7 @@ All this analysis was done in R, with plots done in ggplot2 and tidied up after 
     .domain([0, d3.max(dataset)])
     .range([h - 20 - padding, padding]);
 
-    var svg_bar = d3.select("plotdiv") // Create the SVG plot
+    var svg_bar = d3.select("#plotdiv") // Create the SVG plot
                 .append("svg")
                 .attr("width", w)
                 .attr("height", h);
