@@ -11,7 +11,7 @@ I promised myself I wouldn't do this again. I promised it after [writing this ar
 The notion of Christmas coming earlier every year has been a regular feature in my life, with it not truly feeling like the Christmas period until someone has rolled their eyes and said "it gets earlier ever year" or given an exasperated "already!?" at the sight of the Christmas lights going up around town. Some people take it worse than others, however, as this Daily Mail headline from last year highlights:  
 
 
-<div id='plotdiv'></div>
+<div id="plotdiv"></div>
 
 <center>
 <img src="../figure/source/christmas-reddit/dailymail.png" style="width:75%" />
@@ -52,7 +52,7 @@ As this is now my third time writing this article, I looked at the date the prev
 
 All this analysis was done in R, with plots done in ggplot2 and tidied up after in Inkscape. The data comes from [Reddit](http://www.reddit.com) via [FiveThirtyEight](https://projects.fivethirtyeight.com/reddit-ngram/?keyword=lebron.rodgers.trout&start=20071015&end=20170731&smoothing=10).
 
-<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+<script type="text/javascript" src="//d3js.org/d3.v5.min.js"></script>
 <script type = "text/javascript">
     // SVG properties
     var w = 768;
