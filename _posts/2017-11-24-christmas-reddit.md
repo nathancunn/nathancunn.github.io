@@ -55,8 +55,8 @@ All this analysis was done in R, with plots done in ggplot2 and tidied up after 
 <script type="text/javascript" src="//d3js.org/d3.v5.min.js"></script>
 <script type = "text/javascript">
     // SVG properties
-    var w = 768;
-    var h = 400;
+    var w = $("#plotdiv").width();
+    var h = w / 2;
     var margin = 20;
     var padding = 1;
 
