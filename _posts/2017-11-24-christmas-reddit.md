@@ -10,6 +10,9 @@ I promised myself I wouldn't do this again. I promised it after [writing this ar
 
 The notion of Christmas coming earlier every year has been a regular feature in my life, with it not truly feeling like the Christmas period until someone has rolled their eyes and said "it gets earlier ever year" or given an exasperated "already!?" at the sight of the Christmas lights going up around town. Some people take it worse than others, however, as this Daily Mail headline from last year highlights:  
 
+
+<div id='plotdiv'></div>
+
 <center>
 <img src="../figure/source/christmas-reddit/dailymail.png" style="width:75%" />
 </center>
@@ -48,3 +51,146 @@ So, has Christmas been coming earlier?
 As this is now my third time writing this article, I looked at the date the previous articles came out: Nov 11th, Nov 28th, and now Nov 24th. So, "Is Christmas coming earlier?" hasn't been coming earlier every year.
 
 All this analysis was done in R, with plots done in ggplot2 and tidied up after in Inkscape. The data comes from [Reddit](http://www.reddit.com) via [FiveThirtyEight](https://projects.fivethirtyeight.com/reddit-ngram/?keyword=lebron.rodgers.trout&start=20071015&end=20170731&smoothing=10).
+
+<script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+<script type = "text/javascript">
+    // SVG properties
+    var w = 768;
+    var h = 400;
+    var margin = 20;
+    var padding = 1;
+
+    // Simulation parameters
+    var nbins = 50;
+    var iter = 10000;
+    var p = 0.5;
+
+    // Fill an array where each of value is repeated each of lens times
+    function fillArray(value, lens) {
+        var arr = [];
+        n = lens.reduce(add, 0);
+        for (var i = 0; i < n; i++) {
+            for(var j = 0; j < lens[i]; j++) {
+                arr.push(value[i]);
+            }
+        }
+        return arr;
+    }
+    // This is just used in the above
+    function add(a, b) {
+        return a + b;
+    }
+
+
+    // Calculate the paygap for a certain setup
+    function get_paygap(p, workers, salaries) {
+        var nworkers = workers.reduce(add, 0);
+        var staffsalary = fillArray(salaries, workers);
+        var femalesalary = 0;
+        var malesalary = 0;
+        var femaleworkers = 0;
+        var maleworkers = 0;
+        for (var i = 0; i < nworkers; i++) {
+            if(Math.random() < p) {
+                femalesalary += staffsalary[i];
+                femaleworkers += 1;
+            } else {
+                malesalary += staffsalary[i];
+                maleworkers += 1
+            }
+        };
+        // If either gender is unrepresented then give an extreme value
+        if (maleworkers == 0 | femaleworkers == 0) {
+            out =  1000 * ((- 1) ** (femaleworkers == 0));
+        } else {
+            out = ((malesalary / maleworkers) - (femalesalary / femaleworkers)) / (malesalary / maleworkers) * 100;
+        };
+        return out;
+    }
+
+    function simulateData(p, workers, salaries, nbins) {
+        var dataset = Array(nbins).fill(0);
+        for (var i = 0; i < iter; i++) {
+            var bin = Math.floor(get_paygap(p, workers, salaries) / 5 + nbins * .6) ;
+            if (bin < 0) {
+                bin = 0
+            } else if (bin > nbins) {
+                bin = nbins - 1
+            };
+            dataset[bin] += 1;
+        };
+        return dataset;
+    }
+    var dataset = simulateData(p, [115, 59, 17, 11], [20000, 60000, 125000, 500000], nbins);
+
+
+    var xScale = d3.scaleLinear()
+    .domain([- 3 * nbins, 2 * nbins])
+    .range([10, w - 10]);
+    var yScale = d3.scaleLinear()
+    .domain([0, d3.max(dataset)])
+    .range([h - 20 - padding, padding]);
+
+    var svg_bar = d3.select("plotdiv") // Create the SVG plot
+                .append("svg")
+                .attr("width", w)
+                .attr("height", h);
+
+
+
+
+    var xAxis = d3.axisBottom()
+    .scale(xScale);
+    var yAxis = d3.axisLeft()
+    .scale(yScale);
+
+    svg_bar.selectAll("rect")
+            .data(dataset)
+            .enter()
+            .append("rect")
+            .attr("x", function(d, i) {
+                return xScale(i * 5 - 3 * nbins);
+            })
+            .attr("y", function(d) {
+                return yScale(d);
+            })
+            .attr("width", w / nbins - padding)
+            .attr("height", function(d) {
+                return h - 20 - yScale(d);
+            })
+            .attr("fill", function(d, i) {
+                if (i < nbins * 0.6) {
+                    return "#4484CE"
+                } else {
+                    return "#F9CF00"
+                }
+            });
+    svg_bar.append("g")
+        .call(xAxis)
+        .attr("transform", "translate(0," + (h - 20 - padding) + ")");
+    svg_bar.append("g")
+           .attr("class", "y axis")
+           .call(yAxis)
+           .attr("transform", "translate(" + 30 + ", 0)")
+
+    d3.select("#psex")
+      .on("input", function() {
+          dataset = simulateData(+this.value / 100, [115, 59, 17, 11], [20000, 60000, 125000, 500000], nbins);
+          yScale.domain([0, d3.max(dataset)]);
+          svg_bar.selectAll("rect")
+                 .data(dataset)
+                 .transition()
+                 .delay(function(d, i) {
+                     return i * 10
+                 })
+                 .attr("y", function(d) {
+                     return yScale(d);
+                 })
+                 .attr("height", function(d) {
+                     return h - 20 - yScale(d);
+                 });
+          svg_bar.select(".y.axis").
+          call(yAxis);
+      });
+
+    </script>
