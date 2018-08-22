@@ -187,7 +187,7 @@ function simulateData(p, workers, salaries, nbins) {
 
 // Start SVG
 // SVG properties
-var w = 750;
+var w = 700;
 var h = w / 2;
 var margin = [10, 20, 60, 50];
 var padding = 2;
@@ -439,7 +439,7 @@ var salaryBar = svg_bar.selectAll(".salary.bars")
                        .attr("y", function(d, i) {return(yW(i) + y(0.66))})
                        .attr("x", sliderStart + maxWidth * 0.1)
                        .attr("width", function(d, i) {return(d.value * maxWidth)})
-                       .attr("height", workerHeight)
+                       .attr("height", workerheight)
                        .attr("fill", femalecol)
                        .call(barScale);
 
