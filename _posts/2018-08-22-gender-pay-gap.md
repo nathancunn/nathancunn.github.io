@@ -372,7 +372,7 @@ var yW = d3.scaleBand()
            .range([y(0.65), y(0.45)])
 
 // Create draggable bars for inputting
-var workerheight = 20;
+var workerheight = h / 25.6;
 
 var workers2 = [{position: "A", value: 11 / maxWorkers},
                 {position: "B", value: 17 / maxWorkers},
@@ -564,5 +564,3 @@ svg_bar.append("text")
        .style("text-anchor", "middle")
        .text("Frequency (%)");
     </script>
-  </body>
-  </html>
