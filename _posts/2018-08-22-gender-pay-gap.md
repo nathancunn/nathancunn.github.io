@@ -46,6 +46,7 @@ Knowing you can't rely on reducing your pay gap by starting over, you say goodby
 
 
 Your current proposed staff breakdown:
+
 | Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 6       |
@@ -54,6 +55,7 @@ Your current proposed staff breakdown:
 | D (£20,000)      | 43    | 74      |
 
 And the resulting pay gap figures:
+
 |       | Male salary (£) | Female salary (£) | Gap (%) |
 | ----  | ---:            | ----:             | ---:    |
 |Mean   | 76,551          | 61,709            | 19.4    |
@@ -65,6 +67,7 @@ And the resulting pay gap figures:
 You consider promoting more women, and yet the problem persists. As it turns out, promoting no fewer than five women will be enough to bring your pay gap to a more reasonable 2.6%. The median pay gap, on the other hand, remains unchanged.
 
 Your current proposed staff breakdown:
+
 | Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 10       |
@@ -75,6 +78,7 @@ Your current proposed staff breakdown:
 
 
 And the resulting pay gap figures:
+
 |       | Male salary (£) | Female salary (£) | Gap (%) |
 | ----  | ---:            | ----:             | ---:    |
 |Mean   | 76,551          | 74,532            | 2.6     |
@@ -86,6 +90,7 @@ While a swathe of promotions for which men aren't eligible may not be ideal for 
 
 
 Your final staff breakdown:
+
 | Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 5       |
@@ -97,6 +102,7 @@ Your final staff breakdown:
 
 
 And the resulting pay gap figures:
+
 |       | Male salary (£) | Female salary (£) | Gap (%) |
 | ----  | ---:            | ----:             | ---:    |
 |Mean   | 65,981          | 66,443            | -0.7    |
