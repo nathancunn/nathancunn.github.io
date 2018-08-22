@@ -275,7 +275,7 @@ svg_bar.selectAll(".hist.rect")
            }
            tooltip
            .style("left", d3.event.pageX + 0 + "px")
-           .style("top", d3.event.pageY + 10 + "px")
+           .style("top", d3.mouse(this)[0] + 10 + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
@@ -526,7 +526,7 @@ svg_bar.append("text")
 // Add title
 svg_bar.append("text")
        .attr("x", xScale(-145))
-       .attr("y", y(1) + 16.5)
+       .attr("y", y(1) + 10)
        .attr("text-anchor", "right")
        .attr("fill", "#888888")
         .attr("font-family", "Roboto")
