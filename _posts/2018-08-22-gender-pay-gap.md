@@ -274,7 +274,7 @@ svg_bar.selectAll(".hist.rect")
                tooltipText = Math.round(out * 100) /100 + "% of cases had a gender pay gap within ±5%"
            }
            tooltip
-           .style("left", "105%")
+           .style("left", "5px")
            .style("top", "-5px")
            .style("display", "inline-block")
            .html(tooltipText);
