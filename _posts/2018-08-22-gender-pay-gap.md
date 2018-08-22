@@ -275,7 +275,7 @@ svg_bar.selectAll(".hist.rect")
            }
            tooltip
            .style("left", (d3.event.pageX + 10) + "px")
-           .style("top", (d3.event.pageY + h/2) + "px")
+           .style("top", (d3.event.pageY + 100) + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
