@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A cynical guide to fixing the gender pay gap
+title:  A cynical guide to fixing your gender pay gap
 date: "2018-08-22 14:00:00"
 image: /figure/source/paygap/paygap.png
 share-img: http://www.nathancunn.com/figure/source/paygap/paygap.png
