@@ -36,6 +36,7 @@ Despite the uproar you feel relaxed; you know you've always been fair in your hi
 
 However, before committing to firing all your staff and starting afresh, you decide to examine the impact such a move is likely to have on your gender pay gap figure. You run a simulation: for every position in the company you randomly assign it as having been filled by a male or female with equal probability, effectively the gender occupying each position will be determined by the toss of a coin. And then, in order to get a feel for the random variation of the results, you construct 10,000 such alternate realities, calculating the mean gender pay gap in each case, and then you consider the outcomes had you been more or less favourable towards female candidates:
 
+<center>(drag bars to change input)</center>
 <div id='paygapplot'></div>
 
 
