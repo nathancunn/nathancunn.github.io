@@ -187,7 +187,7 @@ function simulateData(p, workers, salaries, nbins) {
 
 // Start SVG
 // SVG properties
-var w = $("#d3div").width();
+var w = $("#paygapplot").width();
 var h = w / 2;
 var margin = [10, 20, 60, 50];
 var padding = 2;
