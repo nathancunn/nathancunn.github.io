@@ -276,7 +276,7 @@ svg_bar.selectAll(".hist.rect")
            console.log(d3.event.pageY)
            tooltip
            .style("left", (d3.event.pageX + 10) + "px")
-           .style("top", (d3.event.pageY + 50) + "px")
+           .style("top", (d3.event.pageY - 100) + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
