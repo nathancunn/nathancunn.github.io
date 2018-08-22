@@ -110,7 +110,7 @@ In particular, this disimprovement may be the case for those at the lower end of
     font-size: 11pt;
 }
 .toolTip {
-    position: relative;
+    position: absolute;
     display: none;
     height: auto;
     background: none repeat scroll 0 0 #ACACACCC;
@@ -274,8 +274,8 @@ svg_bar.selectAll(".hist.rect")
                tooltipText = Math.round(out * 100) /100 + "% of cases had a gender pay gap within ±5%"
            }
            tooltip
-           .style("left", "5px")
-           .style("top", "-5px")
+           .style("left", d3.mouse(this)[0] +  "px")
+           .style("top", d3.mouse(this)[1] + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
