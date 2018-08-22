@@ -37,7 +37,7 @@ While some deviation is to be expected, the results surprise you. You had expect
 
 Knowing you can't rely on reducing your pay gap by starting over, you say goodbye to your simulated staff and consider what changes can be made to your real staff. Maybe you could make some changes at the upper levels; you could promote one of your female employees into the top positions. This turns out to be somewhat successful: promoting a female staff member from position B into the top earning role, A, would decrease your pay gap from 23.5% to just over 19%. The median pay gap, on the other hand, remains unchanged. An improvement, nonetheless, but unlikely to satisfy the angry masses online.
 
-| Salary     | # Males | # Females |
+| Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 6       |
 | B (£125,000)       | 8     | 8       |
@@ -275,7 +275,7 @@ svg_bar.selectAll(".hist.rect")
            }
            tooltip
            .style("left", (d3.event.pageX + 10) + "px")
-           .style("top", (d3.event.pageY - 1000) + "px")
+           .style("top", (d3.event.pageY + 5) + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
