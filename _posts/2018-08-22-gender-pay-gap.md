@@ -191,7 +191,7 @@ function simulateData(p, workers, salaries, nbins) {
 
 // Start SVG
 // SVG properties
-var w = 700;
+var w = 768;
 var h = w / 2;
 var margin = [10, 20, 60, 50];
 var padding = 2;
@@ -275,7 +275,7 @@ svg_bar.selectAll(".hist.rect")
            }
            tooltip
            .style("left", d3.event.pageX + 0 + "px")
-           .style("top", d3.mouse(this)[0] + 10 + "px")
+           .style("top", d3.event.pageY + 0 + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
