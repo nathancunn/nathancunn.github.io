@@ -189,7 +189,7 @@ function get_paygap(p, workers, salaries) {
     };
     // If either gender is unrepresented then give an extreme value
     if (maleworkers == 0 | femaleworkers == 0) {
-        out =  1000 * ((- 1) ** (maleworkers == 0));
+        out =  1000 * Math.pow((- 1), (maleworkers == 0));
     } else {
         out = ((malesalary / maleworkers) - (femalesalary / femaleworkers)) / (malesalary / maleworkers) * 100;
     };
@@ -198,7 +198,7 @@ function get_paygap(p, workers, salaries) {
 
 // Replicate the above 'iter' times
 function simulateData(p, workers, salaries, nbins) {
-    var dataset = Array(nbins).fill(0);
+    var data_set = Array(nbins).fill(0);
     for (var i = 0; i < iter; i++) {
         var tmp = get_paygap(p, workers, salaries)
         if (tmp > 100) {
@@ -206,11 +206,11 @@ function simulateData(p, workers, salaries, nbins) {
         } else if (tmp < -150) {
             tmp  = -150
         }
-        dataset[i] = tmp;
+        data_set[i] = tmp;
     };
     var x = d3.scaleLinear().domain([-150, 100]).nice(nbins);
     var histogram = d3.histogram().domain(x.domain()).thresholds(x.ticks(nbins));
-    var data = histogram(dataset);
+    var data = histogram(data_set);
     return data;
 }
 
@@ -231,7 +231,7 @@ var p = 0.5;
 // Initialise the data
 workers = [115, 59, 17, 11];
 salaries = [20000, 60000, 125000, 500000];
-var dataset = simulateData(p, workers, salaries, nbins);
+var data_set = simulateData(p, workers, salaries, nbins);
 
 // Scales for overall plot
 // Means we can reference positions on the plot as values in [0, 1]
@@ -247,7 +247,7 @@ var xScale = d3.scaleLinear()
                .domain([- 150, 105])
                .range([x(0), x(0.75)]);
 var yScale = d3.scaleLinear()
-               .domain([0, d3.max(dataset, function(d){return d.length / iter * 100}) * 1.05])
+               .domain([0, d3.max(data_set, function(d){return d.length / iter * 100}) * 1.05])
                .range([y(0), y(0.95)]);
 
 
@@ -267,7 +267,7 @@ var yAxis = d3.axisLeft()
 var tooltip = d3.select("body").append("div").attr("class", "toolTip");
 // Add the main histogram
 svg_bar.selectAll(".hist.rect")
-       .data(dataset)
+       .data(data_set)
        .enter()
        .append("rect")
        .attr("class", "hist rect")
@@ -286,16 +286,16 @@ svg_bar.selectAll(".hist.rect")
            out = 0
            if(i >= 31) {
                for(var j = i; j <= nbins; j++) {
-                   out += dataset[j].length / iter * 100;
+                   out += data_set[j].length / iter * 100;
                }
                tooltipText = Math.round(out * 100) /100 + "% of cases had a gender pay gap ≥ " + (i * 5 - 150) + "% favouring men"
            } else if(i <= 28) {
                for(var j = 0; j <= i; j++) {
-                   out += dataset[j].length / iter * 100;
+                   out += data_set[j].length / iter * 100;
                }
                tooltipText = Math.round(out * 100) /100 + "% of cases had a gender pay gap ≥ " + (145 - i * 5) + "% favouring women"
            } else {
-               out = (dataset[29].length + dataset[30].length) / iter * 100
+               out = (data_set[29].length + data_set[30].length) / iter * 100
                tooltipText = Math.round(out * 100) /100 + "% of cases had a gender pay gap within ±5%"
            }
            tooltip
@@ -343,10 +343,10 @@ function updatePlot() {
         workers[i] = Math.round(workers2[i].value * maxWorkers)
         salaries[i] = Math.round(salaries2[i].value * maxSalary)
     }
-    dataset = simulateData(p, workers, salaries, nbins);
-    yScale.domain([0, d3.max(dataset, function(d) {return d.length / iter * 100}) * 1.05]);
+    data_set = simulateData(p, workers, salaries, nbins);
+    yScale.domain([0, d3.max(data_set, function(d) {return d.length / iter * 100}) * 1.05]);
     svg_bar.selectAll(".hist.rect")
-           .data(dataset)
+           .data(data_set)
            .transition()
            .delay(function(d, i) {
                return i * 10
