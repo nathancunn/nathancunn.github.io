@@ -9,7 +9,7 @@ share-img: http://www.nathancunn.com/figure/source/paygap/paygap.png
 
 It's April 5th, the deadline for reporting gender pay gap figures passed last night and your company reported a mean gender pay gap of 23.6%. Already the tabloids are baying for blood and a trending hashtag on Twitter is calling for the boycott of your company's products. As the headlines point out, for every £1 you pay your male staff your female staff on average get 76p.
 
-The mean gender pay gap is the difference between the mean pay across genders expressed as a percentage of mean male pay, the reporting of which was introduced to highlight disparities in upward mobility across the genders. Examining a breakdown of your staff shows no such disparity as women are quite well represented at the upper levels of your company:
+The mean gender pay gap is the difference between the mean pay across genders expressed as a percentage of mean male pay. The reporting of these figures was introduced to highlight disparities in upward mobility between men and women. Examining a breakdown of your staff you see no such disparity; women are quite well represented at the upper levels of your company:
 
 
 
@@ -22,7 +22,7 @@ The mean gender pay gap is the difference between the mean pay across genders ex
 
 
 
-However, this hasn't been reflected in your gender pay gap figures with a mean pay gap of 23.6% and an even more alarming median pay gap of 66.7% (calculated as before, but using the median pay levels instead of the mean).
+However, this hasn't been reflected in your gender pay gap figures with a mean pay gap of 23.6% and an even more alarming median pay gap of 66.7% (calculated as before, but using median pay levels instead of the mean).
 
 
 |       | Male salary (£) | Female salary (£) | Gap (%) |
@@ -32,20 +32,20 @@ However, this hasn't been reflected in your gender pay gap figures with a mean p
 
 
 
-Despite the uproar you feel relaxed; you know you've always been fair in your hiring process. Comically so, in fact. When a position was to be filled you tossed all the applicants' names into a hat and drew one at random. Perhaps, you think, you're just a victim of random variation. While your methods were fair (at least in some sense of the word) by some misfortune you ended up as a statistical outlier. Were you to start all over again your outcome would be much different.
+Despite the uproar you feel relaxed; you know you've always been fair in your hiring process. Comically so, in fact. When a position was to be filled you tossed all the applicants' names into a hat and drew one at random. Perhaps, you think, you're just a victim of random variation---even when tossing a fair coin, it's not beyond the realms of probability that you witness a run of ten heads in a row. While your employment practices may have been fair (at least in some sense of the word) by some misfortune you ended up as a statistical outlier. Were you to start all over again your outcome would be much different.
 
-However, before committing to firing all your staff and starting afresh, you decide to examine the impact such a move is likely to have on your gender pay gap figure. You run a simulation: for every position in the company you randomly assign it as having been filled by a male or female with equal probability, effectively the gender occupying each position will be determined by the toss of a coin. And then, in order to get a feel for the random variation of the results, you construct 10,000 such alternate realities, calculating the mean gender pay gap in each case, and then you consider the outcomes had you been more or less favourable towards female candidates:
+However, before committing to firing all your staff and starting afresh, you decide to examine the impact such a move is likely to have on your gender pay gap figure. You run a simulation: for every position in the company you randomly assign it as having been filled by a male or female with equal probability, effectively the gender occupying each position will be determined by the toss of a coin. Then, in order to get a feel for the variability of the results, you construct 10,000 such alternate realities, calculating the mean gender pay gap in each case:
 
 
 <div id='paygapplot'></div>
 <center>(drag bars to change input)</center>
 
-While some deviation is to be expected, the results surprise you. You had expected that a gender pay gap as extreme as yours would be unlikely, a typical threshold being an event with less than a 5% chance of occurring. However, you discover that roughly one in every eight cases (12.4%) had a pay gap worse than your own, with almost one-third (32.7%) having a pay gap greater than 10%. When you consider the frequency of a pay gap against either gender roughly half of all cases exhibited a pay gap greater than 15%. Clearly you're not as much of an outlier as you expected. Furthermore, had you systematically preferred to employ men for all positions such that women only had a 10% success rate, the probability that you observe a pay gap greater than 15% *in favour of women* actually increases slightly from just under 30% to just over 30%.
+While some deviation is to be expected, the results surprise you. You had expected that a gender pay gap as extreme as yours would be unlikely, a typical choice of threshold being an event with less than a 5% chance of occurring. However, you discover that roughly one in every eight cases (12.4%) had a pay gap worse than your own, with almost one-third (32.7%) having a pay gap greater than 10%. When you consider the frequency of a pay gap against either gender roughly half of all cases exhibited a pay gap greater than 15%. Clearly you're not as much of an outlier as you expected. Furthermore, had you systematically preferred to employ men for all positions such that women only had a success rate of 10%, the probability that you observe a pay gap greater than 15% *in favour of women* actually *increase* slightly from just under 30% to just over 30%.
 
-Knowing you can't rely on reducing your pay gap by starting over, you say goodbye to your simulated staff and consider what changes can be made to your real staff. Maybe you could make some changes at the upper levels; you could promote one of your female employees into the top positions. This turns out to be somewhat successful: promoting a female staff member from position B into the top earning role, A, would decrease your pay gap from 23.5% to just over 19%. The median pay gap, on the other hand, remains unchanged. An improvement, nonetheless, but unlikely to satisfy the angry masses online.
+Knowing you can't rely on reducing your pay gap by starting over, you say goodbye to your simulated staff and consider what changes can be made to your real staff. Maybe you could make some changes at the upper levels; you could promote one of your female employees. This approach turns out to be somewhat successful: promoting a female staff member from position B into the top earning position, A, would decrease your pay gap from 23.5% to just over 19%. The median pay gap, on the other hand, remains unchanged. An improvement, nonetheless, but unlikely to satisfy the angry masses online.
 
 
-
+Your current proposed staff breakdown:
 | Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 6       |
@@ -53,10 +53,7 @@ Knowing you can't rely on reducing your pay gap by starting over, you say goodby
 | C (£60,000) | 30    | 29      |
 | D (£20,000)      | 43    | 74      |
 
-
-
-
-
+And the resulting pay gap figures:
 |       | Male salary (£) | Female salary (£) | Gap (%) |
 | ----  | ---:            | ----:             | ---:    |
 |Mean   | 76,551          | 61,709            | 19.4    |
@@ -65,9 +62,9 @@ Knowing you can't rely on reducing your pay gap by starting over, you say goodby
 
 
 
-You consider promoting more women, and yet the problem persists. As it turns out, only promoting five more women will be enough to bring your pay gap to a more reasonable 2.6%. The median pay gap, on the other hand, remains unchanged.
+You consider promoting more women, and yet the problem persists. As it turns out, promoting no fewer than five women will be enough to bring your pay gap to a more reasonable 2.6%. The median pay gap, on the other hand, remains unchanged.
 
-
+Your current proposed staff breakdown:
 | Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 10       |
@@ -77,8 +74,7 @@ You consider promoting more women, and yet the problem persists. As it turns out
 
 
 
-
-
+And the resulting pay gap figures:
 |       | Male salary (£) | Female salary (£) | Gap (%) |
 | ----  | ---:            | ----:             | ---:    |
 |Mean   | 76,551          | 74,532            | 2.6     |
@@ -86,10 +82,10 @@ You consider promoting more women, and yet the problem persists. As it turns out
 
 
 
-While a swathe of promotions for which men aren't eligible may not be ideal for morale you keep this in the 'maybe' pile. Let's not be naive, though, you're a profit-maximising capitalist and promoting such a large number of staff will be costly and difficult; top staff are paid so handsomely due to the relative rarity of their skillsets. Conversely, lower-paid and relatively lower-skilled workers tend to be more readily replaceable. And with that realisation you find your solution and, luckily, it won't cost you a penny. You examine the impact of your plan and discover that it will bring your mean gender pay gap to 0.7% in favour of women and your median pay gap to 0%. Your egalitarian plan? Fire 20 of the lowest paid female workers and replace them all with male workers.
+While a swathe of promotions for which men aren't eligible may not be ideal for morale you keep this in the 'maybe' pile. Let's not be naive, though, you're a profit-maximising capitalist and promoting such a large number of staff will be costly and difficult; top staff are paid so handsomely due to the relative rarity of their skillsets. Conversely, lower-paid and relatively lower-skilled workers tend to be more readily replaceable. And with that realisation you find your solution, one which won't cost you a penny. You examine the impact of your plan and discover that it will bring your mean gender pay gap to 0.7% in favour of women and your median pay gap to 0%. Your egalitarian plan? Fire 20 of the lowest paid female workers and replace them all with male workers.
 
 
-
+Your final staff breakdown:
 | Position (Salary)     | # Males | # Females |
 | -----------           |-----:| -----:  |
 | A (£500,000)     | 6     | 5       |
@@ -100,7 +96,7 @@ While a swathe of promotions for which men aren't eligible may not be ideal for 
 
 
 
-
+And the resulting pay gap figures:
 |       | Male salary (£) | Female salary (£) | Gap (%) |
 | ----  | ---:            | ----:             | ---:    |
 |Mean   | 65,981          | 66,443            | -0.7    |
@@ -108,15 +104,15 @@ While a swathe of promotions for which men aren't eligible may not be ideal for 
 
 
 
-While this is a simplified, and incredibly cynical, view of the world, the case presented here is not so far-fetched. In the officially reported figures, the very first company you come across, ["Bryanston School", Incorporated](https://gender-pay-gap.service.gov.uk/viewing/employer-details?e=Z7k4NdWWPkmMySu5kzbpYw%21%21), report a mean gender pay gap of 18%, and a median pay gap of 28.2%. Damning figures if you ignore context. The breakdown of their staff into income quartiles shows that women are evenly represented in the upper quartiles with the pay gap seemingly driven by an over-representation of females in the bottom quartile of earners, similar to the hypothetical company I presented above. Although I certainly wouldn't advise it, a strategy such as that outlined above would likely go a long way towards improving their gender pay gap figures, however it's difficult to know the true underlying cause, when the data are as aggregated as they are.
+While this is a simplified, and incredibly cynical, view of the world, the case presented here is not so far-fetched. In the officially reported figures, the very first company you come across, ["Bryanston School", Incorporated](https://gender-pay-gap.service.gov.uk/viewing/employer-details?e=Z7k4NdWWPkmMySu5kzbpYw%21%21), report a mean gender pay gap of 18%, and a median pay gap of 28.2%. Damning figures if you ignore context. The breakdown of their staff into income quartiles shows that women are evenly represented in the upper quartiles with the pay gap seemingly driven by an over-representation of females in the bottom quartile of earners, similar to the hypothetical company I presented above. Although I certainly wouldn't advise it, a strategy such as that outlined above would likely go a long way towards improving their gender pay gap figures, however it's difficult to know for sure when the data are as coarse as they are.
 
-I want to be clear that I'm not arguing against the existence of a gap in pay between genders; it's impossible to argue when [over three-quarters of British businesses reported a gender pay gap in favour of men](https://www.theguardian.com/news/ng-interactive/2018/apr/05/women-are-paid-less-than-men-heres-how-to-fix-it). While the results as a whole may be indicative of a systematic restriction in the upwards mobility of women in our society, I would urge caution when passing judgement on the pay gap figure of a single company as there's little knowledge of what a reasonable level of variation between companies is. Also, as I hope I've demonstrated here:
+I want to be clear that I'm not arguing against the existence of a gap in pay between genders; it's impossible to argue when [over three-quarters of British businesses reported a gender pay gap in favour of men](https://www.theguardian.com/news/ng-interactive/2018/apr/05/women-are-paid-less-than-men-heres-how-to-fix-it). While the results as a whole may be indicative of a systematic restriction in the upwards mobility of women in our society, I would urge caution when passing judgement on the pay gap figure of a single company as there's little understanding of what an acceptable level of variation between companies is. Also, as I hope I've demonstrated here:
 
 * a relatively large pay gap may not reflect a bias against women; even when positions are filled entirely blind to gender it's still likely that a large pay gap will exist
 * a company with a strong bias towards hiring men, may be more likely to have a pay gap figure more strongly in favour of women than a company with no such bias
 * Furthermore, an improvement in the pay gap figure of a firm need not reflect an improvement in conditions for female workers and, indeed, may reflect an objective disimprovement in the situation of the female workforce.
 
-In particular, this disimprovement may be the case for those at the lower end of the scale, and isn't that really where inequality matters most? Coverage of the gender pay gap would suggest otherwise; how often have you heard stories of actresses being paid less than their male counterparts? Without getting into the fairness of this, I find it bizarre that the wealth of the rich and famous would become the cause of people who could only dream of the income of those they're fighting for. How did society go from outrage against the 1% to outrage that the 1% aren't being paid enough? On a similar note, the chief executive of Channel 4, Alex Mahon, was confronted about a gender pay gap of 29 per cent within the company. When asked how she aimed to address this, she promised to bring about parity among the company's top earners---where currently only 34 of the top 100 earners are female she promised to bring this up to 50 in the coming years. While representation of women at the very top levels is, of course, important, we should ask ourselves if further increasing the wealth of 16---presumably already quite wealthy---women is truly the yardstick for equality we had in mind when we decided to undertake this exercise, and how much these changes will benefit the majority.
+In particular, this disimprovement may be the case for those at the lower end of the pay scale, and isn't that really where inequality matters most? Coverage of the gender pay gap would suggest otherwise; how often have you heard stories of actresses being paid less than their male counterparts? Without getting into the fairness of this, I find it bizarre that the wealth of the rich and famous would become the cause of people who could only dream of the income of those they're fighting for. We've gone from decrying the inequality *of* the 1% to decrying the inequality *within* the 1%. On a similar note, the chief executive of Channel 4, Alex Mahon, was confronted about a gender pay gap of 29% within the company. When asked how she aimed to address this, she promised to bring about parity among the company's top earners---where currently only 34 of the top 100 earners were female she promised to bring this up to 50 in the coming years. While representation of women at the very top levels is, of course, important, we should ask ourselves if further increasing the wealth of 16---presumably already quite wealthy---women is truly the yardstick for equality we had in mind when we decided to undertake this exercise.
 
 *Much of this analysis was done in R, while the graphics represent my first foray into D3, so please let me know if they display weirdly on your machine*
 
