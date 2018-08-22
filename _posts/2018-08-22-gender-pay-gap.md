@@ -273,9 +273,10 @@ svg_bar.selectAll(".hist.rect")
                out = (dataset[29].length + dataset[30].length) / iter * 100
                tooltipText = Math.round(out * 100) /100 + "% of cases had a gender pay gap within ±5%"
            }
+           console.log(d3.event.pageY)
            tooltip
            .style("left", (d3.event.pageX + 10) + "px")
-           .style("top", (d3.event.pageY + 100) + "px")
+           .style("top", (d3.event.pageY + 50) + "px")
            .style("display", "inline-block")
            .html(tooltipText);
        })
