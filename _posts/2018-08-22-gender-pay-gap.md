@@ -37,7 +37,7 @@ Despite the uproar you feel relaxed; you know you've always been fair in your hi
 However, before committing to firing all your staff and starting afresh, you decide to examine the impact such a move is likely to have on your gender pay gap figure. You run a simulation: for every position in the company you randomly assign it as having been filled by a male or female with equal probability, effectively the gender occupying each position will be determined by the toss of a coin. Then, in order to get a feel for the variability of the results, you construct 10,000 such alternate realities, calculating the mean gender pay gap in each case:
 
 
-<div id='paygapplot'></div>
+<div id="paygapplot" style="width: 768px; overflow: hidden;">
 <center>(drag bars to change input)</center>
 
 While some deviation is to be expected, the results surprise you. You had expected that a gender pay gap as extreme as yours would be unlikely, a typical choice of threshold being an event with less than a 5% chance of occurring. However, you discover that roughly one in every eight cases (12.4%) had a pay gap worse than your own, with almost one-third (32.7%) having a pay gap greater than 10%. When you consider the frequency of a pay gap against either gender roughly half of all cases exhibited a pay gap greater than 15%. Clearly you're not as much of an outlier as you expected. Furthermore, had you systematically preferred to employ men for all positions such that women only had a success rate of 10%, the probability that you observe a pay gap greater than 15% *in favour of women* actually *increase* slightly from just under 30% to just over 30%.
