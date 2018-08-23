@@ -141,8 +141,8 @@ In particular, this disimprovement may be the case for those at the lower end of
     display: none;
     height: auto;
     background: none repeat scroll 0 0 #ACACAC;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
     padding: 14px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
