@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  _Why_ did the golden age of The Simpsons end?
-date: "2018-10-20 14:00:00"
+date: "2018-10-21 14:00:00"
 image: /figure/source/simpsons_writers/writers.png
 share-img: http://www.nathancunn.com/figure/source/simpsons_writers/writers.png
 ---
