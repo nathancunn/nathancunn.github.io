@@ -79,7 +79,7 @@ times its width. Incidentally, this is the same ratio used in standard A format 
 I did a quick mock-up of how this might impact the iPhone X,
 just look at this stubby little thing:
 <center>
-![](../figure/source/folding_phones/iphone.png)
+<img src="../figure/source/folding_phones/iphone.png" style="width:100%" />
 </center>
 Far be it from me to assume that I know what Samsung's plans are with regards this
 technology and I'm certainly not rubbishing the innovation, I just wanted to clarify
