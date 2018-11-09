@@ -83,4 +83,5 @@ just look at this stubby little thing:
 
 Far be it from me to assume that I know what Samsung's plans are with regards this
 technology and I'm certainly not rubbishing the innovation, I just wanted to clarify
-the basic maths that says these foldable phones probably won't be exactly what you expect.
+the basic maths that says these foldable phones just can't be bezel-free and in the
+form factor we expect from modern phones/tablets.
