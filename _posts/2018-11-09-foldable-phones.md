@@ -60,11 +60,11 @@ find other uses, but in terms of mass appeal, surely that must be its purpose?
 However, as I mentioned, the most common aspect ratios are 16:9 and 18:9, meaning if we want
 our tablet screen to maintain that ratio, we'll have to settle for phone screens roughly 8:9,
 or 9:9---roughly square shaped. This isn't out of the question, but would be a deviation from
-what we expect of our phones. But then, so is folding the damn thing up. Many of the tablets
-on the market today don't conform to either of these aspect ratios, instead coming with 4:3 display.
-Building a foldable phone like this would result in a phone with a 3:2 screen, a 25% decrease in
+what we expect of our phones. But then, so is folding the damn thing up.
+However, many of the tablets on the market today don't conform to either of these aspect ratios,
+instead coming with a 4:3 display. Building a foldable phone like this would result in a phone with a 3:2 screen, a 25% decrease in
 height against 18:9 phones, and a 15% decrease against 16:9 phones and ultimately neither
-screen is ideal for 16:9 or 18:9 viewing (my assumed reason for the additional screen).
+screen is perfectly suited for 16:9 or 18:9 viewing (my assumed reason for the additional screen).
 
 If we go back to wanting our phone and our tablet to share an aspect ratio, can we find a
 suitable ratio such that the added bezels are minimised?
