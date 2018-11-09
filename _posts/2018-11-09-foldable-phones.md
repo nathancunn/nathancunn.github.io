@@ -7,20 +7,20 @@ share-img: http://www.nathancunn.com/figure/source/folding_phones/18_9.png
 ---
 
 The prospect of a foldable phone/tablet combo has been causing a stir lately, thanks
-to [Samsung teasing their latest innovation: a phone that folds out into a tablet.](https://twitter.com/samsung_dev/status/1060251017890037765) While I don't particularly fancy one of these devices---not that I could afford one---I can appreciate the technological feats that they are.
+to [Samsung teasing their latest innovation: a phone that unfolds into a tablet.](https://twitter.com/samsung_dev/status/1060251017890037765) While I don't particularly fancy one of these devices---not that I could afford one---I can appreciate the technological feats that they are.
 
 However, the phones seem to fly in the face of two notable drivers in phone
 development recently:
   - Making phones taller. In order to accommodate us consuming media on our
-  phones, companies have been making phones to match the aspect ratio (the ratio
+  phones, companies have been making phones to closer match the aspect ratio (the ratio
     of a screen's width to its height) of modern TV and film (commonly 16:9, or 18:9),
     leading to phones like the  Samsung Galaxy S9 having an 18.5:9 aspect ratio and
     the iPhone X featuring a 19.5:9 aspect ratio.
     By comparison the iPhone 4 had a 3:2 aspect ratio, so it would need to add 44% to
     the height of its screen to match the iPhone X.
-    Although I just said the aspect ratio is
+    (Although I just said the aspect ratio is
     width:height and phones aren't wider than they are tall, their aspect ratios are usually
-    specified as height:width.
+    specified as height:width.)
   - Making bezels smaller. In order to prevent phones from becoming _too_ unwieldy
   with these larger screens, there's been a push to decrease the size of the phone bezels:
   the area on the front of your phone which is not the screen. This has led to innovations
@@ -43,8 +43,8 @@ the front of the phone to bezels.
 Or, maybe we could sacrifice having some bezels on the tablet screen? If we have no bezel
 on the phone screen, then the tablet's maximum width is twice the phone's width (plus a
   little for the folding mechanism). If we're sticking
-to our 18:9 guns here the absolute best we can do here is a tablet screen with width 18,
-and height 9, i.e. literally the phone's screen but in landscape. So, even if we settle
+to our 18:9 guns, the absolute best we can do here is a tablet screen with width 18,
+and height 9 i.e. literally the phone's screen but in landscape. Even if we settle
 for bezels on the tablet side, or even just black bars when watching movies, we won't be
 watching on a screen any bigger than what we already have.
 
@@ -58,16 +58,16 @@ or 9:9---roughly square shaped. This isn't out of the question, but would be a d
 what we expect of our phones. But then, so is folding the damn thing up.
 
 If we go back to wanting our phone and our tablet to share an aspect ratio, can we find a
-suitable ratio such that the addition to bezels is minimised?
+suitable ratio such that the added bezels are minimised?
 
-Below I've looked at how much of the phone front we'd have to devote to a bezel if
+Below I've looked at how much of the phone front real estate we'd have to devote to a bezel if
 both screens are to share an aspect ratio, assuming the tablet side is always bezel-free:
 
 <center>
 <img src="../figure/source/folding_phones/ratios.svg" style="width:100%" />
 </center>
 
-Clearly there are definitely better choices than 2:1 (or 18:9), with the value allowing for a
+Clearly there are definitely better choices than 2:1 (or 18:9), with a value allowing for a
 totally bezel-free foldable phone  at some value between 1 and 2.
 
 Discovering this value is actually quite simple, we just want to
