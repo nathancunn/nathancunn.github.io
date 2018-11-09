@@ -29,7 +29,12 @@ development recently:
   and the Google Pixel 3.
 
 So, what's the problem? Why not just have both the tablet and the phone 18:9, with minimal
-bezels? Let's start with the phone as 18:9, meaning a height of 18 units, a width of 9 units.
+bezels? So asked one Reddit user under the discussion on foldable phones yesterday:
+
+<a class="embedly-card" href="https://www.reddit.com/r/gadgets/comments/9v9sts/the_foldable_phones_are_coming/e9ajph9">Card</a>
+<script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
+
+Let's start with the phone as 18:9, meaning a height of 18 units, a width of 9 units.
 As the phone will be in portrait while the tablet in landscape, the tablet's height will also
 be 18 units, thus giving the tablet a width of 36 units in order to maintain the 18:9 ratio.
 
