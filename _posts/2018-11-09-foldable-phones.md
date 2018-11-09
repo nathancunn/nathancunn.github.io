@@ -61,7 +61,8 @@ If we go back to wanting our phone and our tablet to share an aspect ratio, can 
 suitable ratio such that the added bezels are minimised?
 
 Below I've looked at how much of the phone front real estate we'd have to devote to a bezel if
-both screens are to share an aspect ratio, assuming the tablet side is always bezel-free:
+both screens are to share an aspect ratio, assuming the tablet side is always bezel-free, and the
+phone width is exactly half the tablet width:
 
 <center>
 <img src="../figure/source/folding_phones/ratios.svg" style="width:100%" />
