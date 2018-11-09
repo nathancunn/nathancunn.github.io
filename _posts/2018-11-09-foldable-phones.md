@@ -7,10 +7,7 @@ share-img: http://www.nathancunn.com/figure/source/folding_phones/18_9.png
 ---
 
 The prospect of a foldable phone/tablet combo has been causing a stir lately, thanks
-to [Samsung teasing their latest innovation: a phone that folds out into a tablet](https://twitter.com/samsung_dev/status/1060251017890037765)
-
-While I don't particularly fancy one of these devices---not that I could afford one---
-I can appreciate the technological feats that they are.
+to [Samsung teasing their latest innovation: a phone that folds out into a tablet.](https://twitter.com/samsung_dev/status/1060251017890037765) While I don't particularly fancy one of these devices---not that I could afford one---I can appreciate the technological feats that they are.
 
 However, the phones seem to fly in the face of two notable drivers in phone
 development recently:
