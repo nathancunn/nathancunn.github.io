@@ -28,4 +28,6 @@ This is a collection of some of the media coverage my work has received:
 
 [Jun 28 2017 Washington Post: The ‘i before e, except after c’ rule is a giant lie](https://www.washingtonpost.com/news/wonk/wp/2017/06/28/the-i-before-e-except-after-c-rule-is-a-giant-lie/?utm_term=.08b7995a59d2)
 
+[Jan 2017 BBC Midlands Today interview: Stay Still or Search? Finding a lost friend in a crowd](https://www.bbc.com/news/uk-england-coventry-warwickshire-38406905)
+
 [Nov 29 2016 BBC Radio 4 More or Less](https://www.bbc.co.uk/programmes/b08343jx)
