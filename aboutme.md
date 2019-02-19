@@ -12,6 +12,9 @@ Prior to my PhD I worked in the ESRI (Economic and Social Research Institute) in
 
 I'll mostly be using this blog to write about the sort of stuff nobody would ever pay me to write about, more often than not The Simpsons.
 
+# CV
+
+A fairly up-to-date CV can be found [here](https://raw.githubusercontent.com/nathancunn/nathancunn.github.io/master/_source/CV/nathan_cunningham_cv.pdf).
 
 # Media
 This is a collection of some of the media coverage my work has received:
