@@ -35,4 +35,9 @@ This is a collection of some of the media coverage my work has received:
 
 [Nov 29 2016 BBC Radio 4 More or Less](https://www.bbc.co.uk/programmes/b08343jx)
 
+# Academic publications
+[My Google Scholar page](https://scholar.google.com/citations?user=9-nPacsAAAAJ&hl=en) contains a mostly up-to-date listing of my publications.
+# Software packages
+[particleMDI](https://github.com/nathancunn/particleMDI.jl) - a Julia package for performing integrative cluster analysis on multiple genomic datasets.
+
 
