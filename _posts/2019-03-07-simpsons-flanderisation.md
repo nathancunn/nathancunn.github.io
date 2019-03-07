@@ -63,13 +63,13 @@ onegrams %>%
   ungroup()
 
 ```
-Interestingly none of Ned's words was religious in season 1, although as previously seen he contributed very little dialogue then. The trend doesn't appear very clear. There is, perhaps, a gradual increase of mentions of religion by Ned but, aside from a few seasons, no major increase.
+Interestingly none of Ned's words was religious in season 1, although as previously seen he contributed very little dialogue then. The trend doesn't appear to be very clear. There is, perhaps, a gradual increase of mentions of religion by Ned but, aside from a few seasons, no major increase.
 
 ![](../figure/source/simpsons-flanderisation/religion.png)
 
 ### Increased _Flanderisms_
 
-Being religious isn't Ned's _only_ trait, and part of his Flanderisation also involves his particular manner of speaking...arooney. Again, I used some regex to pull out the top _Flanderisms_, which I defined as any word containing any of 'ly', 'eeno' or 'roon'. This obviously picks up a lot of false positives, e.g. family, so I created a table of false positives, `mystopwords`, and removed them afterwards. I also made some spelling adjustments to make the spellings consistent, e.g. 'hidily' became 'hidilly'.
+Being religious isn't Ned's _only_ trait, and part of his Flanderisation also involves his particular manner of speaking...arooney. Again, I used some regex to pull out the top _Flanderisms_, which I defined as any word containing any of 'ly', 'eeno' or 'roon'. This obviously picks up a lot of false positives, e.g. 'family' contains 'ly', so I created a table of false positives, `mystopwords`, and removed them afterwards. I also made some spelling adjustments to make the spellings consistent, e.g. 'hidily' became 'hidilly'.
 
 ``` r
 onegrams %>%
@@ -84,27 +84,32 @@ The top Flanderisms are much what we would expect with 'diddly' far and away the
 
 ![](../figure/source/simpsons-flanderisation/topflanderisms.png)
 
-Looking at Ned's use of Flanderisms over time follows closely to TV Tropes claims that Ned underwent an increase in how _Flandersy_ he was between seasons 2-9, followed by a change from season 9 on.
+Ned's use of Flanderisms over time follows closely to TV Tropes claims that he underwent an increase in how _Flandersy_ he was between seasons 2-9, followed by a change from season 9 on. Although, it does seem that right from the start Ned didn't shy away from his quirky use of language.  
 ![](../figure/source/simpsons-flanderisation/flanderismspc.png)
 
 
 ### What makes Flanders, Flanders?
 We might also approach this task assuming we know nothing of Ned's manner of speaking and try to discover what he says that differentiates him from the other characters. This involves identifying words which have a high TF-IDF (term-frequency inverse-document-frequency) for Ned. The TF-IDF is the product of two terms:
+
 $$
 \textrm{TF-IDF} = TF \times IDF
 $$
+
   - Term frequency (TF):
-  $$\frac{\textrm{\# times Ned says word}}{\textrm{\# words Ned says}}$$
+  $$\frac{\textrm{# times Ned says word}}{\textrm{# words Ned says}}$$
+
   How frequently does Ned say a particular term? Thus, words that Ned commonly says will have a high TF value.
-  - Inverse Document Frequency (IDF): $$log\left(\frac{\textrm{\# characters in total}}{\textrm{\# characters who use the term}}\right)$$ The log of the inverse of how many characters use that word. IDF will be low if many characters use this term.
+  - Inverse Document Frequency (IDF): $$log\left(\frac{\textrm{# characters in total}}{\textrm{# characters who use the term}}\right)$$
+
+  The log of the inverse of how many characters use that word. IDF will be low if many characters use this term.
 
 Thus, the TF-IDF is a balancing act between words which are uttered frequently by a character but more rarely in general.
 
-Consider the word 'the'. Ned Flanders says this word $772$ times in my data out of $23199$ words in total, giving this word a TF of $\frac{772}{23199} = 0.03$. However, every other character uses this word, giving an IDF of $log(\frac{69}{69}) = log(1) = 0$. (I selected only characters with at least 100 lines, leaving 69 remaining). The word 'the', therefore, has a TF-IDF of zero. This is great because knowing Ned Flanders uses the word 'the' a lot tells us nothing about Ned when every other character uses it too.
+Consider the word 'the'. Ned Flanders says this word $772$ times in my data out of $23199$ words in total, giving this word a TF of $\frac{772}{23199} = 0.03$. However, every other character uses this word, giving an IDF of $log(\frac{69}{69}) = log(1) = 0$. (I selected only characters with at least 100 lines, leaving 69 characters in the analysis). The word 'the', therefore, has a TF-IDF of zero. This is great because knowing Ned Flanders uses the word 'the' a lot tells us nothing about him when every other character uses it too.
 
 Now, let's instead consider the word 'Maude'. Ned mentions his wife fewer times (TF $= 0.002$) but other characters are much less likely to mention her name (IDF $= 1.84$) giving it a TF-IDF score of $0.003$.
 
-In all, scores with high TF-IDF scores will be those that make Ned, Ned. We can pick out those that most distinctly depict Ned as follows:
+In all, words with high TF-IDF scores will be those that make Ned, Ned. We can pick out those that most distinctly depict Ned as follows:
 
 ``` r
 onegrams %>%
@@ -120,14 +125,17 @@ The TF-IDF isn't restricted to single-word terms. We can also consider what phra
 
 ![](../figure/source/simpsons-flanderisation/trigrams.png)
 
-Some interesting ones show up here, and some others highlight a weakness of this approach. The phrase "n n n" isn't a mistake. It comes from Ned singing his version of Welcome To The Jungle (_n-n-n-n-n-n-knees!_). Although this only comes up in one scene, he utters the three-word phrase multiple times and is the only character to do so. Although in saying that, "_nothin at all, nothin at all, **nothin at all**_" comes up in just one episode too, and there's no doubt that's a Ned line.
+Some interesting phrases show up here, while some others highlight a weakness of this approach. The phrase "n n n" isn't an error in the data. It comes from Ned singing his version of Welcome To The Jungle (_n-n-n-n-n-n-knees!_). Although this only comes up in one scene, he utters the three-word phrase multiple times and is the only character to do so. Although in saying that, "_nothin at all, nothin at all, **nothin at all**_" comes up in just one episode too, and there's no doubt that's a Ned line.
 
-![](../figure/source/simpsons-flanderisation/nothinatall.png)
+![](../figure/source/simpsons-flanderisation/nothinatall.jpg)
 
-As a final comparison, instead of comparing Ned vs the other characters, I compared Ned with himself. Specifically, I examined how Golden Age Ned ([S10E11 and earlier](http://www.nathancunn.com/2017-10-26-simpsons-decline/)) differed from his later incarnation ("New Flanders"). Again, I calculated the TF-IDF, except in this case the documents being compared were just words said by Golden Age Ned and New Flanders. Note that in this case if Ned says something during and after the golden age, this term will necessarily have a TF-IDF of zero, regardless of how frequently Ned says the term.
+### Ned Flanders vs New Flanders
+
+As a final comparison, instead of contrasting Ned and the other characters, I contrasted Ned with himself. Specifically, I examined how Golden Age Ned ([S10E11 and earlier](http://www.nathancunn.com/2017-10-26-simpsons-decline/)) differed from his later incarnation ("New Flanders"). Again, I calculated the TF-IDF, except in this case the documents being compared were just words said by Golden Age Ned and New Flanders. Note that in this case if Ned says something during and after the golden age, this term will necessarily have a TF-IDF of zero, regardless of how frequently Ned says the term.
+
 ![](../figure/source/simpsons-flanderisation/oldvnew.png)
 
-Golden Age Ned feels much more distinctly Ned to me, as I can attach most of the terms to at least one scene: with terms like howdilly, cider, and reference to Reverend Lovejoy (did he _really_ never mention him after the Golden Age?) Apart from his mention of Edna, I'm not sure I can attach a context to any of the other terms.
+Golden Age Ned feels much more distinctly Ned to me, as I can attach most of the terms to at least one scene: with terms like howdilly, cider, and reference to Reverend Lovejoy (did he _really_ never mention him after the Golden Age?) Apart from his mention of Edna in the later seasons, I'm not sure I can attach a context to any of the other terms.
 
 All the results in this post were done in R, with plots done in ggplot2. Simpsons images are from [Frinkiac](www.frinkiac.com).
 
