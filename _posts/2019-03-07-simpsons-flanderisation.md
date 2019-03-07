@@ -2,7 +2,7 @@
 layout: post
 title:  How Ned got Fland-diddly-anderised
 date: "2019-03-07 13:00:00"
-image: /figure/source/folding_phones/18_9.png
+image: /figure/source/simpsons-flanderisation/roosters.jpg
 share-img: http://www.nathancunn.com/figure/source/simpsons-flanderisation/roosters.jpg
 ---
 
