@@ -132,6 +132,11 @@ Golden Age Ned feels much more distinctly Ned to me, as I can attach most of the
 All the results in this post were done in R, with plots done in ggplot2. Simpsons images are from [Frinkiac](www.frinkiac.com).
 
 If you enjoyed this, you might be interested in my other Simpsons-related posts:
-[When did the golden age of The Simpsons end?](http://www.nathancunn.com/2017-10-26-simpsons-decline/)),
- [What is the best/most quotable Simpsons episode?](http://www.nathancunn.com/2018-01-21-best-simpsons/), and [Who is the main side character in The Simpsons?](http://www.nathancunn.com/2017-07-16-simpsons-characters/)
+
+[When did the golden age of The Simpsons end?](http://www.nathancunn.com/2017-10-26-simpsons-decline/))
+
+[What is the best/most quotable Simpsons episode?](http://www.nathancunn.com/2018-01-21-best-simpsons/)
+
+[Who is the main side character in The Simpsons?](http://www.nathancunn.com/2017-07-16-simpsons-characters/)
+
 [Why did the golden age of The Simpsons end?](http://www.nathancunn.com/2018-10-21-simpsons-writers/)
