@@ -137,14 +137,11 @@ As a final comparison, instead of contrasting Ned and the other characters, I co
 
 Golden Age Ned feels much more distinctly Ned to me, as I can attach most of the terms to at least one scene: with terms like howdilly, cider, and reference to Reverend Lovejoy (did he _really_ never mention him after the Golden Age?) Apart from his mention of Edna in the later seasons, I'm not sure I can attach a context to any of the other terms.
 
-All the results in this post were done in R, with plots done in ggplot2. Simpsons images are from [Frinkiac](www.frinkiac.com).
+
+_All the results in this post were done in R, with plots done in ggplot2. Simpsons images are from [Frinkiac](www.frinkiac.com)._
 
 If you enjoyed this, you might be interested in my other Simpsons-related posts:
-
-[When did the golden age of The Simpsons end?](http://www.nathancunn.com/2017-10-26-simpsons-decline/))
-
-[What is the best/most quotable Simpsons episode?](http://www.nathancunn.com/2018-01-21-best-simpsons/)
-
-[Who is the main side character in The Simpsons?](http://www.nathancunn.com/2017-07-16-simpsons-characters/)
-
-[Why did the golden age of The Simpsons end?](http://www.nathancunn.com/2018-10-21-simpsons-writers/)
+  - [When did the golden age of The Simpsons end?](http://www.nathancunn.com/2017-10-26-simpsons-decline/)
+  - [What is the best/most quotable Simpsons episode?](http://www.nathancunn.com/2018-01-21-best-simpsons/)
+  - [Who is the main side character in The Simpsons?](http://www.nathancunn.com/2017-07-16-simpsons-characters/)
+  - [Why did the golden age of The Simpsons end?](http://www.nathancunn.com/2018-10-21-simpsons-writers/)
