@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Am I the asshole? An analysis of Reddit posts
+title:  Am I the asshole?
 date: "2019-04-04 12:00:00"
 image: /figure/source/am-i-the-asshole/baddies.jpg
 share-img: http://www.nathancunn.com/figure/source/am-i-the-asshole/baddies.jpg
@@ -13,13 +13,13 @@ The Reddit community [/r/AmITheAsshole](http://www.reddit.com/r/amitheasshole) h
   - **YTA** - _'you're the asshole'_: the OP is the asshole, while the others are not;
   - **ESH** - _'everyone sucks here'_: the OP, and all others involved in the story are assholes.
 
-The community usually leads to some interesting stories, most interestingly when completely oblivious assholes show up and are destroyed in the comments, such as [the asshole who stole a homeless person's dog](https://www.reddit.com/r/AmItheAsshole/comments/ar75he/aita_for_taking_a_homeless_persons_dog/), or [the asshole who wouldn't take his girlfriend out because he preferred her cooking.](https://www.reddit.com/r/AmItheAsshole/comments/b7vz7m/update_aita_for_very_rarelyalmost_never_wanting/) While those posts are entertaining, I always find it more intriguing when there's some debate over the conclusion, yet I rarely seem to come across such controversy.
+The community usually leads to some interesting stories, particularly when completely oblivious assholes show up and are destroyed in the comments, such as [the asshole who stole a homeless person's dog](https://www.reddit.com/r/AmItheAsshole/comments/ar75he/aita_for_taking_a_homeless_persons_dog/), or [the asshole who wouldn't take his girlfriend out because he preferred her cooking.](https://www.reddit.com/r/AmItheAsshole/comments/b7vz7m/update_aita_for_very_rarelyalmost_never_wanting/) While those posts are entertaining, I always find it more intriguing when there's some debate over the conclusion, yet such controversy seems rare.
 
 In order to assess how frequently the conclusion is up for debate, I grabbed all the comments made to /r/AmITheAsshole since the start of the year. In all, about 1.5 million comments were made, and from these I extracted just those which cast a vote using the initialisms above. Then, for each post, I calculated what proportion of the related comments claimed the OP was an asshole (comments containing either NTA or NAH) and similarly for comments claiming OP was the asshole (either YTA or ESH). These two values will be complements for each post as I'm only looking at comments which cast a vote. In order to smooth out some variation I'm only considering posts which have >20 replies. The distribution of the proportion of NTA/NAH posts can be seen below:
 
 ![](../figure/source/am-i-the-asshole/replies.png)
 
-It seems /r/AmITheAsshole conforms to Betteridge's Law of Headlines---any article whose headline is a question can be answered with the word 'no'---as in most posts the OP is almost certainly not the asshole, evidenced by the mode at around 80-90%. Given the definitive nature of the conclusions, I would've expected a similar mode at 10-20% (suggesting 80-90% of comments claiming OP was the asshole), but this isn't evident in the data.
+It seems /r/AmITheAsshole conforms to Betteridge's Law of Headlines---any article whose headline is a question can be answered with the word 'no'---as in most posts the OP is almost certainly not the asshole, evidenced by the mode at 80-90% of replies arguing OP is not an asshole. Given the definitive nature of the conclusions, I would've expected a similar mode at 10-20% (suggesting 80-90% of comments claiming OP was the asshole), but this isn't evident in the data.
 
 At first I thought the assholes were simply self-aware enough not to expose themselves to public scorn, or similarly many people post stories from their point of view deliberately minimising their asshole-ish behaviour. But, then I thought maybe this just doesn't align with how people use Reddit. Perhaps Redditors are simply less likely to give scathing responses to strangers they've never met? To check this out, I examined how Redditors distribute their upvotes on replies, as upvoting a post that the OP is an asshole is an anonymous equivalent to making the reply yourself.
 
@@ -31,7 +31,7 @@ A related issue is that the fuller picture we gain still is not the complete pic
 
 ![](../figure/source/am-i-the-asshole/score.png)
 
-This gives a clearer picture, while OP is still most likely not the asshole, if they are the asshole, they're definitely the asshole with non-definitive conclusions occurring relatively rarely.
+This gives a clearer picture, while OP is still most likely not the asshole, if they are the asshole, they're _definitely_ the asshole. And much as my casual reading of the subreddit suggested, the conclusion is rarely up for any debate.
 
 
 ### Data and tools
