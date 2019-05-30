@@ -2,7 +2,7 @@
 layout: post
 title:  Why did the golden age of The Simpsons end? redux - celebrity cameos
 date: "2019-05-30 12:00:00"
-image: /figure/source/simpsons_writers/writers.png
+image: /figure/source/simpsons-cameos/boogerstrom.jpg
 share-img: http://www.nathancunn.com/figure/source/simpsons-cameos/boogerstrom.jpg
 ---
 
@@ -11,12 +11,12 @@ share-img: http://www.nathancunn.com/figure/source/simpsons-cameos/boogerstrom.j
 
 
 ### _Not all cameos are bad..._
-Celebrity appearances aren't exclusive to the post-golden-age, nor are they necessarily a bad thing. Some of the classic stories focus primarily on a one-off character voiced by a celebrity. A particularly salient example is _Lisa's Substitute_, in which Lisa develops a crush on her substitute teacher, Mr Bergstrom voiced by Dustin Hoffman. The episode is equal parts touching and hilarious, and Hoffman's performance has been touted as one of [The Simpson's greatest guest appearances](https://ew.com/gallery/springfield-dreams-16-great-simpsons-guest-voices/). While the episode didn't [spare reference to the actor behind the voice](https://www.youtube.com/watch?v=n4FLPLSy1WU) you'd be forgiven for thinking that Mr Bergstrom was, in fact, an authentic Springfieldian.
+Celebrity appearances aren't exclusive to the post-golden-age, nor are they necessarily a bad thing. Some of the classic stories focus primarily on a one-off character voiced by a celebrity. A particularly salient example is _Lisa's Substitute_, in which Lisa develops a crush on her substitute teacher, Mr Bergstrom, voiced by Dustin Hoffman. The episode is equal parts touching and hilarious, and Hoffman's performance has been touted as one of [The Simpson's greatest guest appearances](https://ew.com/gallery/springfield-dreams-16-great-simpsons-guest-voices/). While the episode didn't [spare reference to the actor behind the voice](https://www.youtube.com/watch?v=n4FLPLSy1WU) you'd be forgiven for thinking that Mr Bergstrom was, in fact, an authentic Springfieldian.
 
 ![](../figure/source/simpsons-cameos/boogerstrom.jpg)
 
 ### _...but some are really bad_
-But, just as the train sped Mr Bergstrom from our lives, so it was used to bring in perhaps the most egregious example of the celebrity cameo: Lady Gaga. At [4.3/10 on IMDb](https://www.imdb.com/title/tt2403733/), _Lisa Goes Gaga_ is, _by far_, the lowest rated episode of the show---significantly lower even than _All Singing, All Dancing_, the musical clip show episode which I can only assume was some sort of cruel experiment from the writers. The gist of _Lisa Goes Gaga_ is: Lisa feels down; Lady Gaga _somehow_ senses this, derails the train she's on to help Lisa out; the whole issue is wrapped up with a musical number from the celebrity guest.
+Just as a train sped Mr Bergstrom from our lives, so [one was used to bring in perhaps the most egregious example of the celebrity cameo](https://www.youtube.com/watch?v=pZt0NiPk7nY): Lady Gaga. At [4.3/10 on IMDb](https://www.imdb.com/title/tt2403733/), _Lisa Goes Gaga_ is, _by far_, the lowest rated episode of the show---significantly lower even than _All Singing, All Dancing_, the musical clip show episode which I can only assume was some sort of cruel experiment from the writers. The gist of _Lisa Goes Gaga_ is: Lisa feels down; a famous musician shows up in Springfield; and the whole issue is wrapped up with a musical number.
 
 Despite how outlandish this sounds, it's essentially the plot of _Stark Raving Dad_, the classic, if currently maligned, episode in which Homer meets a man in a mental asylum who claims to be Michael Jackson. This episode, interestingly, is rated 8.6/10 on IMDb at the time of writing, exactly double that of _Lisa Goes Gaga_.
 
@@ -27,7 +27,7 @@ So, why such love for one episode and not the other? Surely it's not just that t
 
 
 ### _Who were the main guest stars?_
-While I've only mentioned a few episodes here, I think there's been a general trend in the show of increasingly present, and increasingly pointless, celebrity cameos. Data on this are available from Wikipedia [here](https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars) and [here](https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars_(seasons_1%E2%80%9320)). We can read them into R using `rvest`.
+While I've only mentioned a few episodes here, I think there's been a general trend in the show of increasingly present, and increasingly pointless, celebrity cameos. Data on celebrity appearances are available from Wikipedia [here](https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars) and [here](https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars_(seasons_1%E2%80%9320)). We can read them into R using `rvest`.
 
 ``` r
 library(rvest)
@@ -60,17 +60,17 @@ guest_stars %>%
 
 ![](../figure/source/simpsons-cameos/one_off.png)
 
-Observing the trend in one-off appearances, It's interesting to see the first season to cross the one-celebrity-per-episode threshold is season ten, which I've previously found to be [the season the golden age ended](http://www.nathancunn.com/2017-10-26-simpsons-decline/). Looking more closely at the precise end of the golden age (S10E11 - _Wild Barts can't be broken_) there are three guest stars listed: Marcia Wallace as Edna Krabappel, Cyndi Lauper as herself, and Franklin D. Roosevelt as himself (from archives). In constrast, S10E12 - _Sunday, Cruddy Sunday_, the first post-golden-age episode, has no fewer than **eight** celebrity cameos, seven of which appear as themselves.
+It's interesting to see the first season to cross the one-celebrity-per-episode threshold is season ten, which I've previously found to be [the season the golden age ended](http://www.nathancunn.com/2017-10-26-simpsons-decline/). Looking more closely at the precise end of the golden age (S10E11 - _Wild Barts can't be broken_) there are three guest stars listed: Marcia Wallace as Edna Krabappel, Cyndi Lauper as herself, and Franklin D. Roosevelt as himself (from archives). In constrast, S10E12 - _Sunday, Cruddy Sunday_, the first post-golden-age episode, has no fewer than **eight** celebrity cameos, seven of which appear as themselves.
 
  Although the number of celebrity appearances dipped below 1.0 again afterwards, it's clear to see that there was a tendency for more celebrity cameos post-golden-age than during; the golden age averaged 0.65 celebrities-per-episode while the post-golden-age came in at 1.13.
 
  I should note here the bias in these numbers: it may simply be the case that there are more one-off celebrities in the later seasons because they just haven't had the chance to reappear on the show yet. While this doesn't exactly address the problem, the trend is similar if we instead consider celebrities making other numbers of appearances.
 
-As I said already though, celebrity cameos aren't inherently bad. My issue with them arises when the appearance serves no purpose other than having a celebrity appear on the show. Appearances such as Lady Gaga's, Tony Blair's appearance to greet The Simpsons at the airport (why?), Glen Hansard's appearance to sing a verse of a song because The Simpsons are visiting Ireland, or any of the seven appearances from _Sunday, Cruddy Sunday_. It all comes down to celebrities popping up and playing themselves for no reason.
+As I said already though, celebrity cameos aren't inherently bad. My issue with them arises when the appearance serves no purpose other than having a celebrity appear on the show. I'm talking about: Lady Gaga; Tony Blair's appearance to greet The Simpsons at the airport in the UK (why?); Glen Hansard's appearance to sing a verse of a song because The Simpsons are visiting Ireland; or any of the seven guest appearances from _Sunday, Cruddy Sunday_. It all comes down to celebrities popping up and playing themselves for no reason.
 
 ![](../figure/source/simpsons-cameos/played-yourself.gif)
 
-We can filter these out fairly straightforwardly by looking for cases where the character played includes "self" or "selves".
+We can filter these out fairly straightforwardly by looking for cases where the guest star is listed as playing a role containing "self" or "selves".
 
 ``` r
 guest_stars %>%
