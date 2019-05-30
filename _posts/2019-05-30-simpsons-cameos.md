@@ -2,7 +2,7 @@
 layout: post
 title:  Why did the golden age of The Simpsons end? redux - celebrity cameos
 date: "2019-05-30 12:00:00"
-image: /figure/source/simpsons-cameos/boogerstrom.jpg
+image: /figure/source/simpsons-cameos/boogerstrom-share.jpg
 share-img: http://www.nathancunn.com/figure/source/simpsons-cameos/boogerstrom.jpg
 ---
 
