@@ -4,7 +4,7 @@ title: About me
 ---
 
 
-Hi! I'm a PhD student in Warwick University, a member of the Oxford-Warwick statistics programme (OxWaSP). My PhD has taken me around a few institutions: Oxford, Warwick, The Alan Turing Institute, but currently I'm based in Dublin. 
+Hi! I'm a PhD student in the University of Warwick, a member of the Oxford-Warwick statistics programme (OxWaSP). My PhD has taken me around a few institutions: Oxford, Warwick, The Alan Turing Institute, but currently I'm based in Dublin. 
 
 My research focuses on developing means of integrative cluster analysis in the context of genomic data analysis. Simply put, I am researching ways of finding groups in data where these data may arise from multiple sources. The application area of this is analysing the broad array of genetic data recorded on patients in order to identify risk cohorts.
 
@@ -37,7 +37,24 @@ This is a collection of some of the media coverage my work has received:
 
 # Academic publications
 [My Google Scholar page](https://scholar.google.com/citations?user=9-nPacsAAAAJ&hl=en) contains a mostly up-to-date listing of my publications.
+
+# Academic conferences and presentations
+**Health Data Science** at _The Wellcome Genome Campus, 11-12 Jun 2019_ - I presented a poster on ParticleMDI, the Julia package I've developed during my thesis for performing cluster analysis on genomic data, as well as some results from successful applications of the algorithm.
+
+**DataBeers Dublin** at _The Marker Hotel, 28 Feb 2019_ - I gave a talk on my blog posts analysing the end of the golden age of The Simpsons.
+
+**LMS Invited Lecture Series and CRISM Summer School in Computational Statistics 2018** at _The University of Warwick 9-13 Jul 2018_ - I presented a poster on the work I've completed during my thesis.
+
+**BAYSM 2018** at _The University of Warwick 2-3 Jul 2018_ - I presented a poster on the work I've completed during my thesis.
+
+**ISBA World Meeting 2018** at _The University of Edinburgh 24-29 Jun 2018_ -  I presented a poster on the work I've completed during my thesis.
+
+**CogX 2018** at _Tobacco Dock London_ - I gave a talk on my research in developing algorithms for inferring clusters in groups of cancer patients using genomic data.
+
+
 # Software packages
-[particleMDI](https://github.com/nathancunn/particleMDI.jl) - a Julia package for performing integrative cluster analysis on multiple genomic datasets.
+[ParticleMDI](https://github.com/nathancunn/particleMDI.jl) - a Julia package for performing integrative cluster analysis on multiple genomic datasets.
+
+[pushshiftR](https://github.com/nathancunn/pushshiftR) - a _very_ basic package for reading Reddit data into R using the pushshift API.
 
 
