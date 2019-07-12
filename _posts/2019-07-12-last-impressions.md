@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Where did Irish politicians study?
+title:  Are first impressions more important than last for TV shows?
 date: "2019-07-12 12:00:00"
 image: /figure/source/last-impressions/firstog.png
 share-img: http://www.nathancunn.com/figure/source/last-impressions/firstog.png
