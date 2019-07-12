@@ -21,6 +21,8 @@ It's interesting that in both cases, we tend to rate the show overall as better 
 ![](../figure/source/last-impressions/worst.png)
 
 
+_This analysis was done in R, with plots generated in ggplot2, details of the analysis are below. The data come from IMDb_
+
 ## Data
 I gathered the data from [IMDb](https://datasets.imdbws.com/). The data needed are spread across a couple of different tables: `title.ratings`, `title.episode`, and `title.basics`, so they all need to be downloaded and extracted on your machine. They can be read into R using the `tidyverse` package:
 
