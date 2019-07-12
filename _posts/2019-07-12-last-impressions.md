@@ -6,17 +6,17 @@ image: /figure/source/last-impressions/firstog.png
 share-img: http://www.nathancunn.com/figure/source/last-impressions/firstog.png
 ---
 
-In _Thinking Fast and Slow_ Daniel Kahnemann and Amos Tversky outlined an experiment in which they asked participants to place their hand in a bowl of cold water. In one trial they were asked to remove their hand after 60 seconds and rate the discomfort they suffered. In the other experiment, they endured the same experience, but also an additional 30 seconds in which the water was marginally less cold. The total discomfort experienced in the second experiment is objectively greater, being the sum of the original experiment plus some additional, albeit more moderate, discomfort. Despite this, participants rated the second experiment as causing less distress, choosing to repeat it over the first.
+In _Thinking Fast and Slow_ Daniel Kahnemann and Amos Tversky outlined an experiment in which they asked participants to place their hand in a bowl of cold water. In one trial they were asked to remove their hand after 60 seconds and rate the discomfort they suffered. In the other, they endured the same experience, but also an additional 30 seconds in which the water was marginally less cold. The total discomfort experienced in the second experiment is objectively greater, being the sum of the original experiment plus some additional, albeit more moderate, discomfort. Despite this, participants rated the second experiment as causing less distress, choosing to repeat it over the first.
 
-This got me thinking about TV, of course. With one of the biggest TV productions of recent years, Game of Thrones, ending to almost universal criticism, did we let that sour taste taint the rest of what was, at times, an excellent show? Or when it comes to TV shows, are first impressions more important than final impressions?
+This got me thinking about TV, of course. With one of the biggest TV productions of recent years, Game of Thrones, ending to almost universal criticism, did we let that sour taste flavour the rest of what was, at times, an excellent show? Or when it comes to TV shows, are first impressions more important than final impressions?
 
 ![](../figure/source/last-impressions/firstvslast.png)
 
 It appears that the opening season of a show is typically rated _marginally_ closer to the overall show's average, than the final season, and so it could be argued that it is a little more important. It appears as though we are slightly more forgiving of a dud final season when it comes to forming our overall opinion of a show. It may also be that people cast their votes for the show as a whole, long before the show ever finishes and don't reconsider their decision, regardless of how it ends.
 
-It's interesting that in both cases, we tend to rate the show overall as better than either season individually. This may be that shows typically have better middles than ends, or that it's easier to gloss over the bad when we look to rate the show as a whole.
+It's interesting that in both cases, we tend to rate the show overall as better than either season individually. This may be that shows typically have better middles than ends, or that it's easier to gloss over the bad when we look to rate the show as a whole. It should be noted that IMDb ratings for a show as a whole are seemingly somewhat separate from episode ratings, rather than being a weighted average of the individual episode ratings.
 
- Indeed if we look at the shows with the largest discrepancies between the season average and the series average, the majority show the season being poorer than our memory of the show itself. The largest negative discrepancies also belong to the final seasons, reinforcing the idea that we tend to be more forgiving of final seasons.
+If we look at the shows with the largest discrepancies between the season average and the series average, the majority show the season being poorer than our memory of the show itself. The largest negative discrepancies also belong to the final seasons, reinforcing the idea that we tend to be more forgiving of final seasons, with little surprises in the shows whose final seasons fell furthest below their expectations.
 
 ![](../figure/source/last-impressions/worst.png)
 
@@ -24,7 +24,7 @@ It's interesting that in both cases, we tend to rate the show overall as better 
 _This analysis was done in R, with plots generated in ggplot2, details of the analysis are below. The data come from IMDb_
 
 ## Data
-I gathered the data from [IMDb](https://datasets.imdbws.com/). The data needed are spread across a couple of different tables: `title.ratings`, `title.episode`, and `title.basics`, so they all need to be downloaded and extracted on your machine. They can be read into R using the `tidyverse` package:
+I gathered the data from [IMDb](https://datasets.imdbws.com/). What we need are actually spread across a few different tables: `title.ratings`, `title.episode`, and `title.basics`, so they all need to be downloaded and extracted on your machine. They can be read into R using the `tidyverse` package:
 
 ```r
 library(tidyverse)
