@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  All the president's boys
-date: "2019-03-10 12:00:00"
+date: "2019-10-03 12:00:00"
 image: /figure/source/presidents-names/og.png
 share-img: http://www.nathancunn.com/figure/source/presidents-names/og.png
 ---
