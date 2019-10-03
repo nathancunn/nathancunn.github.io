@@ -20,4 +20,4 @@ In all but two cases, the year of inauguration coincided with an increase in the
 
 Or, maybe this is all just random variation. The number of boys born with a particular first name will go up or down every year. If we assume that it's equally likely for each of these situations (assuming that the chance of the exact same number being born year-on-year is negligible) then this is basically a coin-toss experiment. I've never mentioned the magnitude of the changes, just the direction. In the data shown, five out of seven presidents showed an increase in popularity of their name in their year of inauguration. If we assume that to claim a relationship exists in general we would need to see a spike in five or more cases out of seven, the evidence actually would be weak, as this would occur almost 23% of the time even if no relationship existed. As always, correlation not causation.
 
-This analysis was done using `ggplot2` in R, the data are from [data.gov](http://www.data.gov).
+This analysis was done using R and `ggplot2` to visualise, the data are from [data.gov](http://www.data.gov).
