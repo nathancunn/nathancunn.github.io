@@ -4,13 +4,21 @@ title: About me
 ---
 
 
-Hi! I'm a PhD student in the University of Warwick, a member of the Oxford-Warwick statistics programme (OxWaSP). My PhD has taken me around a few institutions: Oxford, Warwick, The Alan Turing Institute, but currently I'm based in Dublin. 
+Hi! I'm a data scientist working in Dublin.
 
-My research focuses on developing means of integrative cluster analysis in the context of genomic data analysis. Simply put, I am researching ways of finding groups in data where these data may arise from multiple sources. The application area of this is analysing the broad array of genetic data recorded on patients in order to identify risk cohorts.
+I recently finished my PhD in statistics with the University of Warwick, I was a member of the
+Oxford-Warwick statistics programme (OxWaSP). My PhD took me around a few institutions:
+Oxford, Warwick, The Alan Turing Institute, and finally UCD.
 
-Prior to my PhD I worked in the ESRI (Economic and Social Research Institute) in Dublin analysing national health data.
+Prior to my PhD I worked in the ESRI (Economic and Social Research Institute) in
+Dublin analysing national health data.
 
-I'll mostly be using this blog to write about the sort of stuff nobody would ever pay me to write about, more often than not The Simpsons.
+I'll mostly be using this blog to write about the sort of stuff nobody would ever
+pay me to write about, more often than not The Simpsons.
+
+If you've enjoyed my stuff, please let me know. Send me a message on [Twitter](http://twitter.com/nathcun)
+or if you _really_ liked it, I'll always appreciate a [coffee](buymeacoff.ee/r9U1Nsfve
+).
 
 # CV
 
@@ -56,5 +64,3 @@ This is a collection of some of the media coverage my work has received:
 [ParticleMDI](https://github.com/nathancunn/particleMDI.jl) - a Julia package for performing integrative cluster analysis on multiple genomic datasets.
 
 [pushshiftR](https://github.com/nathancunn/pushshiftR) - a _very_ basic package for reading Reddit data into R using the pushshift API.
-
-
