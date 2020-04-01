@@ -17,8 +17,7 @@ I'll mostly be using this blog to write about the sort of stuff nobody would eve
 pay me to write about, more often than not The Simpsons.
 
 If you've enjoyed my stuff, please let me know. Send me a message on [Twitter](http://twitter.com/nathcun)
-or if you _really_ liked it, I'll always appreciate a [coffee](buymeacoff.ee/r9U1Nsfve
-).
+or if you _really_ liked it, I'll always appreciate a [coffee](http://buymeacoff.ee/r9U1Nsfve).
 
 # CV
 
