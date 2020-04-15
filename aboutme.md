@@ -26,9 +26,9 @@ A fairly up-to-date CV can be found [here](https://raw.githubusercontent.com/nat
 # Media
 This is a collection of some of the media coverage my work has received:
 
-[April 2020 - Twitter Says No Evidence Of 'Extensive Politicised Bots' In Ireland Around Covid-19](https://www.balls.ie/the-rewind-news/twitter-says-no-evidence-extensive-politicised-bots-ireland-around-covid-19-429702)
+[Apr 6 2020 The Sunday Times: Atticus: Outbreak binds new book launches](https://www.thetimes.co.uk/article/atticus-outbreak-binds-new-book-launches-3v8hvrfwz)
 
-[April 2020 - Atticus: Outbreak binds new book launches](https://www.thetimes.co.uk/article/atticus-outbreak-binds-new-book-launches-3v8hvrfwz)
+[Apr 2 2020 Balls.ie: Twitter Says No Evidence Of 'Extensive Politicised Bots' In Ireland Around Covid-19](https://www.balls.ie/the-rewind-news/twitter-says-no-evidence-extensive-politicised-bots-ireland-around-covid-19-429702)
 
 [Dec 20 2018 - The Times Christmas experiments: The clocks go back, the kids start singing and the band begins to play](https://www.thetimes.co.uk/article/the-times-christmas-experiments-the-clocks-go-back-the-kids-start-singing-and-the-band-begins-to-play-w96zkwxsb)
 
