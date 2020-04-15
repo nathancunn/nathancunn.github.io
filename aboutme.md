@@ -26,6 +26,10 @@ A fairly up-to-date CV can be found [here](https://raw.githubusercontent.com/nat
 # Media
 This is a collection of some of the media coverage my work has received:
 
+[April 2020 - Twitter Says No Evidence Of 'Extensive Politicised Bots' In Ireland Around Covid-19](https://www.balls.ie/the-rewind-news/twitter-says-no-evidence-extensive-politicised-bots-ireland-around-covid-19-429702)
+
+[April 2020 - Atticus: Outbreak binds new book launches](https://www.thetimes.co.uk/article/atticus-outbreak-binds-new-book-launches-3v8hvrfwz)
+
 [Dec 20 2018 - The Times Christmas experiments: The clocks go back, the kids start singing and the band begins to play](https://www.thetimes.co.uk/article/the-times-christmas-experiments-the-clocks-go-back-the-kids-start-singing-and-the-band-begins-to-play-w96zkwxsb)
 
 [Oct 30 2018 Nerdist: SCIENCE DETERMINES THE EXACT MOMENT THE SIMPSONS WENT WRONG](https://nerdist.com/when-did-the-simpsons-get-bad-according-to-science/?utm_campaign=coschedule&utm_source=twitter&utm_medium=nerdist&utm_content=Science%20Determines%20the%20Exact%20Moment%20THE%20SIMPSONS%20Went%20Wrong)
