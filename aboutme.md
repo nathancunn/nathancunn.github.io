@@ -30,6 +30,8 @@ This is a collection of some of the media coverage my work has received:
 
 [Apr 2 2020 Balls.ie: Twitter Says No Evidence Of 'Extensive Politicised Bots' In Ireland Around Covid-19](https://www.balls.ie/the-rewind-news/twitter-says-no-evidence-extensive-politicised-bots-ireland-around-covid-19-429702)
 
+[Dec 12 2019 - The Irish Economics Podcast discussing whether or not Christmas is coming earlier every year](https://shows.acast.com/the-irish-economics-podcast/episodes/christmas-ii-is-christmas-really-coming-earlier-every-year)
+
 [Dec 20 2018 - The Times Christmas experiments: The clocks go back, the kids start singing and the band begins to play](https://www.thetimes.co.uk/article/the-times-christmas-experiments-the-clocks-go-back-the-kids-start-singing-and-the-band-begins-to-play-w96zkwxsb)
 
 [Oct 30 2018 Nerdist: SCIENCE DETERMINES THE EXACT MOMENT THE SIMPSONS WENT WRONG](https://nerdist.com/when-did-the-simpsons-get-bad-according-to-science/?utm_campaign=coschedule&utm_source=twitter&utm_medium=nerdist&utm_content=Science%20Determines%20the%20Exact%20Moment%20THE%20SIMPSONS%20Went%20Wrong)
@@ -67,3 +69,5 @@ This is a collection of some of the media coverage my work has received:
 [ParticleMDI](https://github.com/nathancunn/particleMDI.jl) - a Julia package for performing integrative cluster analysis on multiple genomic datasets.
 
 [pushshiftR](https://github.com/nathancunn/pushshiftR) - a _very_ basic package for reading Reddit data into R using the pushshift API.
+
+[acRonym](https://github.com/nathancunn/acRonym) - another extremely basic package for extracting acronyms and their definitions specified within a set of documents.
