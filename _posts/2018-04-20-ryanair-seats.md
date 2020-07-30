@@ -6,6 +6,11 @@ image: /figure/source/ryanair-seats/ryanair_new_done.png
 share-img: http://www.nathancunn.com/figure/source/ryanair-seats/ryanair_new_done.png
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+</style>
+
+
 I've noticed a lot of indignation lately towards the perceived change in how Ryanair allocates seats. For those unfamiliar with budget airline policies, Ryanair assigns you a seat at random unless you pay a charge---typically between €4 and €10. The ire has been directed at the claim that Ryanair have moved from a system where free seats are assigned completely at random to deliberately assigning you a seat you don't want: giving you a middle seat or splitting up groups. To the best of my knowledge Ryanair denied these claims until presented with the [statistical improbability of their allocations being truly random](http://www.ox.ac.uk/news/2017-06-29-ryanair-random-seat-allocation-not-so-random-says-oxford-university-expert-0). Personally, I found the outrage to be a bit misplaced: even after paying for a preferred seat allocation Ryanair is still regularly the cheapest option available, but, mostly because it actually makes it easier, as a lone traveler, to avoid a middle seat.
 
 To understand why, let's start with the basics: Ryanair planes have 32 rows (they're numbered up to 33 but there's no row 13) with six seats in each (two sets of three) apart from row one, which only has three seats. In total that gives us 189 seats, with 63 of these being middle seats. Therefore, if all passengers are randomly allocated seats you have a one-in-three chance of being assigned a middle seat. Given that you've decided to refuse to pay Ryanair's charges to pick your own seat, the only variables which can affect your chances of getting a middle seat are the number of passengers who have checked in before you (and, therefore, taken a seat) and how many of those are priority passengers (who had their choice of seat).
@@ -56,7 +61,8 @@ With all previous passengers assigned seats I am now assigned one with probabili
 
 
 <center>
-<img src="../figure/source/ryanair-seats/ryanair_old_done.svg" style="width:100%" />
+<img src="../figure/source/ryanair-seats/ryanair_old_done.svg" style="width:100%"
+     alt = "Heatmap showing number of passengers checked in before you on x-axis, and no. of priority passengers on the y-axis. The heatmap is coloured according to your probability of avoiding a middle seat under the old Ryanair system. It shows that there is very little you can do to avoid the middle seat, although checking in late can hurt your chances."/>
 </center>
 
 It appears that you should avoid checking in too late as you run the risk of all non-middle seats already having been assigned, particularly if a large proportion of passengers pay to choose their seat. Outside of this, though, there's little you can do to improve your chances of avoiding a middle seat.
@@ -76,7 +82,8 @@ mid <- 1
 meaning if there is a middle seat available, non-priority passengers will be assigned it. As such, your probability of getting a middle seat will be one or zero, depending on there being middle seats still available. We can see below how your odds look under the new system:
 
 <center>
-<img src="../figure/source/ryanair-seats/ryanair_new_done.svg" style="width:100%" />
+<img src="../figure/source/ryanair-seats/ryanair_new_done.svg" style="width:100%"
+     alt = "Heatmap showing number of passengers checked in before you on x-axis, and no. of priority passengers on the y-axis. The heatmap is coloured according to your probability of avoiding a middle seat in the supposed new Ryanair system. It shows that if you simply wait long enough it's highly likely you can avoid the middle seat, assuming a very large number of priority passengers are not on the flight."/>
 </center>
 
 Clearly this is a much more easily game-able system: if you can wait out other passengers you are almost guaranteed to avoid a middle seat unless an enormous proportion of passengers pay to choose their seat. From experience, I wouldn't expect more than 30 priority passengers, meaning if approximately 75 people have checked in before you, you can be relatively sure of avoiding a middle seat as there aren't any left to take.
