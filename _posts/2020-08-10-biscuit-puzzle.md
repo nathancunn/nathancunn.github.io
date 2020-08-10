@@ -258,7 +258,7 @@ $$
 where $V(s)$ is the value of taking a move which led to state s, $V(s + 1)$ is
 the value of the move which led to the following state, and α is the learning-rate.
 
-Note that as $V(s)\\_{new}$ depends on $V(s+1)\\_{new}$, the value estimates need to
+Note that as $V(s)\_{new}$ depends on $V(s+1)\_{new}$, the value estimates need to
 be updated in reverse order. $V(s+1)$ for the final move played is the reward
 received for winning/losing the game.
 
