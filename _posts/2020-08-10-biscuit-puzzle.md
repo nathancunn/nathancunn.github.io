@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A basic introduction to reinforcement learning and the Julia language
+title:  A Basic Introduction to Reinforcement Learning and the Julia Language
 date: "2020-08-10 13:00:00"
 image: /figure/source/rl/rf.png
 share-img: http://www.nathancunn.com/figure/source/rl/rf.png
@@ -8,12 +8,12 @@ share-img: http://www.nathancunn.com/figure/source/rl/rf.png
 
 In this week's New Scientist, they posed the following puzzle:
 
-    Alpha and Betty are playing a game. In front of them are 8 digestive biscuits
-    and 4 Rich Tea biscuits. On their turn they can choose to either: take any
-    amount of either biscuit, or take the same amount of both. They each takes
-    turns as such, and the player who takes the last biscuit wins and gets to
-    keep all of the biscuits.
-    Alpha goes first; what should they do?
+Alpha and Betty are playing a game. In front of them are 8 digestive biscuits
+and 4 Rich Tea biscuits. On their turn they can choose to either: take any
+amount of either biscuit, or take the same amount of both. They each takes
+turns as such, and the player who takes the last biscuit wins and gets to
+keep all of the biscuits.
+Alpha goes first; what should they do?
 
 At the risk of wielding a hammer on a thumb tack, this seems to me like a perfect
 opportunity for a gentle introduction to reinforcement learning. If you're unfamiliar,
