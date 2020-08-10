@@ -8,18 +8,18 @@ share-img: http://www.nathancunn.com/figure/source/rl/rf.png
 
 In this week's New Scientist, they posed the following puzzle:
 
-Alpha and Betty are playing a game. In front of them are 8 digestive biscuits
+_Alpha and Betty are playing a game. In front of them are 8 Digestive biscuits
 and 4 Rich Tea biscuits. On their turn they can choose to either: take any
-amount of either biscuit, or take the same amount of both. They each takes
+amount of either biscuit, or take the same amount of both. They each take
 turns as such, and the player who takes the last biscuit wins and gets to
 keep all of the biscuits.
-Alpha goes first; what should they do?
+Alpha goes first; what should they do?_
 
 At the risk of wielding a hammer on a thumb tack, this seems to me like a perfect
 opportunity for a gentle introduction to reinforcement learning. If you're unfamiliar,
 the idea of reinforcement learning is for a computer to learn a strategy for
 performing some task by rewarding good performance and training the machine to maximise
-the reward gained, i.e. reinforcing positive actions.
+the reward gained, i.e. reinforcing positive behaviour.
 
 The basic plan of attack for this puzzle:
   * Create a game environment which keeps track of the number of each biscuit remaining
