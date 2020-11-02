@@ -79,8 +79,8 @@ url-pretty: "nathancunn.com"  # eg. "deanattali.com/beautiful-jekyll"
 disqus: "nathancunn"
 
 # Fill in your Google Analytics ID to track your website using GA
-# google_analytics: "UA-101734904-1"
-google_analytics: "G-J8GJBZYL4Q"
+google_analytics: "UA-101734904-1"
+# google_analytics: "G-J8GJBZYL4Q"
 
 # Google Tag Manager ID
 #gtm: ""
