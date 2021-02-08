@@ -17,7 +17,7 @@ The catalogue contains almost 4,000 separate insults levelled at over 400 differ
 As a data scientist, I wanted to break down the catalogue to get a clearer picture of Trump’s tweets and answer some questions.
 
 ## Who did Trump insult most frequently?
-![](../figure/source/who.png)
+![](../figure/source/trump-insults/who.png)
 
 There’s no prize for guessing who topped Trump’s target list. Hillary Clinton and Joe Biden had more tweets levelled at them, by far, than anyone else. The remainder of the top ten comprises Trump’s political foes at various points of his candidacy and subsequent presidency. Some on the list — Nancy Pelosi, Chuck Schumer, and Elizabeth Warren — were constants thorns in Trump’s side, while others — Jeb Bush, Adam Schiff, James Comey, and Michael Bloomberg — were products of particular points in time.
 
