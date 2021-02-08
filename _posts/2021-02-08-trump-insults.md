@@ -6,10 +6,11 @@ image: /figure/source/trump-insults/splash.jpg
 share-img: http://www.nathancunn.com/figure/source/trump-insults/splash.jpg
 ---
 
+With the grim and bizarre reality of a Donald Trump presidency finally beginning to recede behind us, it’s a good opportunity to recap his time as president. For previous US presidents, we might expect to now be inundated with articles detailing major accomplishments, critical analyses of policy implementations, and so on. For Donald Trump, we got a catalogue of his [Twitter insults](https://www.nytimes.com/interactive/2021/01/19/upshot/trump-complete-insult-list.html).
+
 ![](../figure/source/trump-insults/splash.jpg)
 *Photo by [John Cameron](https://unsplash.com/@john_cameron?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
 
-With the grim and bizarre reality of a Donald Trump presidency finally beginning to recede behind us, it’s a good opportunity to recap his time as president. For previous US presidents, we might expect to now be inundated with articles detailing major accomplishments, critical analyses of policy implementations, and so on. For Donald Trump, we got a catalogue of his [Twitter insults](https://www.nytimes.com/interactive/2021/01/19/upshot/trump-complete-insult-list.html).
 
 The catalogue contains almost 4,000 separate insults levelled at over 400 different targets. It’s so vast as to be completely incomprehensible. That one’s Twitter account ever contained such vitriol, you would expect, would disqualify them from positions of leadership. However, like most scandals blighting Trump’s presidency, the woods stopped us focusing on any of the individual trees.
 
