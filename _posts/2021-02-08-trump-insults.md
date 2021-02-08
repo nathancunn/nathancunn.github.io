@@ -31,22 +31,22 @@ Trump has never been accused of having an expansive vocabulary, except of course
 
 There are no prizes for guessing which insults featured most prominently. Trump’s abiding obsession with Hillary Clinton pushes ‘crooked’ into a distant lead, with ‘sleepy’ Joe Biden making up second place. Although, of course, Clinton and Biden were the primary targets here, in both cases there were others on the receiving end: ‘sleepy eyes’ Chuck Todd, and ‘crooked cop’ James Comey, for example. It says a lot for the power of branding when so many of the insults immediately associate with a particular person: ‘crazy’ Nancy Pelosi, ‘crazy’ Bernie Sanders, ‘mini’ Mike Bloomberg.
 
-![]()../figure/source/trump-insults/insults.png)
+![](../figure/source/trump-insults/insults.png)
 
 Another way of looking at Trump’s vocabulary would be to ask which insults did he most often fell back on. When someone new crossed his path and he had to dig deep into his arsenal of ‘best words’, which words were his go-to?
 
-![]()../figure/source/trump-insults/insults_people.png)
+![](../figure/source/trump-insults/insults_people.png)
 
 These insults are a little more difficult to tie back to any individual. Note here that the words are just the most prominently used in insult tweets, after removing some typical filler words; the insults may not have been directly targeted at a particular individual, but instead formed part of the insult. For example, the prominence of the word ‘fake’ is due to the phrase ‘fake news’, rather than a suggestion that the target themselves were fake.
 
 ## How did Trump vary his insults for men/women?
-![]()../figure/source/trump-insults/gender.png)
+![](../figure/source/trump-insults/gender.png)
 
 Accusations of sexism were never far from Trump throughout his presidency. Although his Twitter insults were more often aimed at men — at a rate of over 2:1 — his go-to insult stayed the same: ‘bad’. In fact, it’s difficult to spot any stand-out differences in Trump’s typical treatment of the genders.
 
 ## Whose intelligence couldn’t live up to Trump’s?
 Like any very stable genius, Donald Trump had a constant need to assure us of his intelligence, both by [claiming others are awed by his smarts](https://www.bbc.com/news/av/world-us-canada-51761880) and by highlighting just how much less intelligent those in his orbit are. To find out whose intelligence most grievously offended Trump, I searched for tweet insults containing any variation of words like ‘moron’, ‘fool’, ‘dope’, ‘ignorant’, ‘dummy’, ‘idiot’, ‘stupid’. Almost as if to demonstrate his own superiority, Trump seemed to select from a broader pool of his words to call someone an idiot than he would to call someone ‘bad’.
-![]()../figure/source/trump-insults/intelligence.png)
+![](../figure/source/trump-insults/intelligence.png)
 
 Although still primarily dominated by political adversaries, Trump’s base of supposed idiots extends to include journalists Don Lemon, of ‘Fake News CNN’ and Lawrence O’Donnell of ‘MSDNC’.
 
