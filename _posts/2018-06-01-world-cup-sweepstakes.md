@@ -66,39 +66,52 @@ a large number of possibilities---if, for example, you did something like take t
   We can get the FTSE data using the `quantmod` package in R:
 
 ``` r
+library(lubridate)
 library(quantmod)
-getSymbols("^FTSE", src = "yahoo", from = as.Date("2018-05-31"), to = as.Date("2018-05-31"))
-set.seed(FTSE[, "FTSE.Volume"])
-data.frame(Name = names, Country = sample(countries))
+draw_date <- "2018-05-31"
+getSymbols("^FTSE", from = draw_date - days(1))
+seed <- FTSE[draw_date - days(1)]$FTSE.Volume
+set.seed(seed)
+tibble(Name = names, Country = sample(countries))
 ```
 
 Now we all can run this code separately and get the same draw and trust that none of us could have influenced the results in our favour. If your friends aren't familiar with R you could do as I did and set up a Shiny App to share with them:
 
 ``` r
 library(shiny)
-ui <- fluidPage(titlePanel("World Cup Sweepstakes"),
+# Updated for EURO 2021
+ui <- fluidPage(titlePanel("Euro 2021 Sweepstakes"),
                 fluidRow(tableOutput('draw')),
                 fluidRow(textOutput('text'))
 )
 
 server <- function(input, output) {
-    getSymbols("^FTSE", src = "yahoo", from = as.Date("2018-05-31"), to = as.Date("2018-05-31"))
-    set.seed(FTSE[, "FTSE.Volume"])
-    names <- sprintf("person %d", 1:32)
-    countries <- sort(c("France", "Germany", "Spain", "England", "Belgium",
-                        "Portugal", "Argentina", "Brazil", "Uruguay", "Croatia",
-                        "Colombia", "Poland", "Russia", "Denmark", "Mexico",
-                        "Switzerland", "Egypt", "Nigeria", "Senegal", "Serbia",
-                        "Sweden", "Peru", "Iceland", "Japan", "Costa Rica",
-                        "Morocco", "South Korea", "Australia", "Iran", "Tunisia",
-                        "Saudi Arabia", "Panama"))
-    sweepstakes <- data.frame(Name = names,
-                              Country = sample(countries))
-
+    library(lubridate)
+    library(quantmod)
+    library(tidyverse)
+    names <- sprintf("person %d", 1:24)
+    countries <- sort(c("Italy", "Switzerland", "Turkey", "Wales",
+                        "Belgium", "Russia", "Denmark", "Finland",
+                        "Ukraine", "Netherlands", "Austria", "North Macedonia",
+                        "England", "Croatia", "Czech Republic", "Scotland",
+                        "Spain", "Poland", "Sweden", "Slovakia", 
+                        "Germany", "France", "Portugal", "Hungary"))
+    draw_date <- as_date("2021-06-03")
+    if(today() >= draw_date) {
+        quantmod::getSymbols("^FTSE", from = draw_date - days(1))
+        seed <- FTSE[draw_date - days(1)]$FTSE.Volume
+        msg <- paste0("Random seed used: ", seed, " from FTSE daily volume on ", draw_date - days(1))
+    } else {
+        seed <- round(runif(1) * 10e6)
+        msg <- paste0("Random seed used: ", seed, " (selected at random; draw will take place on ", draw_date)
+    }
+    set.seed(seed)
+    sweepstakes <- tibble(Name = names,
+                          Country = sample(countries))
     output$draw <- renderTable({
-      sweepstakes
+        sweepstakes
     })
-    output$text <- renderText(paste("The random seed is: ", FTSE[, "FTSE.Volume"]))
+    output$text <- renderText(msg)
 }
 
 
