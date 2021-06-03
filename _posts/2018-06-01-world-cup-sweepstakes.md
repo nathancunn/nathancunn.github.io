@@ -6,12 +6,15 @@ image: /figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 share-img: http://www.nathancunn.com/figure/source/world-cup-sweepstakes/sweepstakes-og.jpg
 ---
 
-Like many others are doing at this time, I'm sure, my friends and I are trying to coordinate a sweepstakes for the upcoming World Cup. For anyone unaware, the general format of a World Cup sweepstakes is:
-32 people (or some factor, thereof) pledge an equal sum of money; each draws a competing nation
- from a hat; the person who draws the winning team takes all the cash. Pretty simple.
- In our case, however, the friends I'm organising with all live in different countries, so short of some sort of Sisterhood of the Travelling Pants style arrangement, drawing teams from a hat is out of the question.
+_Updated June 3 2021_
 
-We could have arranged for one trustworthy person to draw a team for everyone from a hat. But, you might discover you trust that person much less if they end up with, say, Germany than if they draw themselves Saudi Arabia. Another suggestion floated was to do a random sort of names and countries in Excel, but this falls victim to the same
+Like many others are doing at this time, I'm sure, my friends and I are trying to coordinate a sweepstakes for the upcoming Euro 2021. For anyone unaware, the general format of a Euros sweepstakes is:
+24 people (or some factor, thereof) pledge an equal sum of money; each draws a competing nation
+ from a hat; the person who draws the winning team takes all the cash. Pretty simple.
+ Of course, social distancing and work from home guidelines arising due to Covid make this a little more complicated to organise among work colleagues. 
+ In my case, the friends I'm organising with also live in different countries, so short of some sort of Sisterhood of the Travelling Pants style arrangement, drawing teams from a hat is out of the question.
+
+We could have arranged for one trustworthy person to draw a team for everyone from a hat. But, you might discover you trust that person much less if they end up with, say, Germany than if they draw themselves Finland. Another suggestion floated was to do a random sort of names and countries in Microsoft Excel, but this falls victim to the same
 issue as before in that the person in charge can do the draw over and over until they get a team they're happy with. And even if they don't, you'll never satisfy everyone that the draw was done fairly, with people's perception of fairness positively correlated to how good their chosen team are.
 
 So, we need to draw teams in a way which we all trust none of us could possibly hold any influence over. Before explaining how I did this in R, I need to give a very brief introduction to pseudo-random numbers.
@@ -44,25 +47,24 @@ rnorm(5)
 `[1] -1.2070657  0.2774292  1.0844412 -2.3456977  0.4291247`
 ```
 
-Now, back to the World Cup sweepstakes. Doing the draw is just randomly ordering the countries and matching these to the names. First off, we have to input all the participants and countries into vectors in R. Note that the resulting
+Now, back to the sweepstakes. Doing the draw is just randomly ordering the countries and matching these to the names. First off, we have to input all the participants and countries into vectors in R. Note that the resulting
 pairings will depend on the order that these are input, as such I decided to sort them alphabetically, to avoid any suggestion that the order of input benefits me.
 
 ``` r
-names <- sprintf("person %d", 1:32) # Replace this with actual names
-countries <- sort(c("France", "Germany", "Spain", "England", "Belgium",
-                    "Portugal", "Argentina", "Brazil", "Uruguay", "Croatia",
-                    "Colombia", "Poland", "Russia", "Denmark", "Mexico",
-                    "Switzerland", "Egypt", "Nigeria", "Senegal", "Serbia",
-                    "Sweden", "Peru", "Iceland", "Japan", "Costa Rica",
-                    "Morocco", "South Korea", "Australia", "Iran", "Tunisia",
-                    "Saudi Arabia", "Panama"))
+names <- sprintf("person %d", 1:24)
+countries <- sort(c("Italy", "Switzerland", "Turkey", "Wales",
+                        "Belgium", "Russia", "Denmark", "Finland",
+                        "Ukraine", "Netherlands", "Austria", "North Macedonia",
+                        "England", "Croatia", "Czech Republic", "Scotland",
+                        "Spain", "Poland", "Sweden", "Slovakia", 
+                        "Germany", "France", "Portugal", "Hungary"))
 
 ```
 
 So that all of us get the same draw, we'll all need to set the same random seed before drawing countries. But, in order to allay any fears of a fix, we need to specify the random seed using an external source of randomness upon which none of us have control. On top of this, the chosen seed should have enough potential variation to account for
 a large number of possibilities---if, for example, you did something like take the average of the day everyone was born, the seed can only take 31 different values (the seed is a whole number), meaning only 31 different draws are possible---and it's likely that none of those possibilities include you getting Germany.
 
- In my case, I chose the volume traded on the FTSE100 for May 31st, having agreed on this ahead of time. None of us could know this in advance, or have any meaningful influence on it. Furthermore, the range of possible values is large enough to allow for many possibilities to be covered---as there are 32! ways of doing this draw, and the range of likely trading volumes will be considerably less than this we won't cover *every* possibility, but we should cover enough to keep everyone happy.
+ In my case, I chose the volume traded on the FTSE100 for June 9th, having agreed on this ahead of time. None of us could know this in advance, or have any meaningful influence on it. Furthermore, the range of possible values is large enough to allow for many possibilities to be covered---as there are 32! ways of doing this draw, and the range of likely trading volumes will be considerably less than this we won't cover *every* possibility, but we should cover enough to keep everyone happy.
   We can get the FTSE data using the `quantmod` package in R:
 
 ``` r
