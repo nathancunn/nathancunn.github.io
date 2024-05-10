@@ -2,7 +2,7 @@
 layout: post
 title:  Eurovision alliances
 date: "2024-05-10 08:00:00"
-image: /figure/source/trump-insults/splash.jpg
+image: /figure/source/eurovision/1.png
 share-img: http://www.nathancunn.com/figure/source/eurovision/1.png
 ---
 
