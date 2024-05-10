@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Eurovision alliances
+title:  Eurovision Diplomacy
 date: "2024-05-09 08:00:00"
 image: /figure/source/eurovision/1.png
 share-img: http://www.nathancunn.com/figure/source/eurovision/1.png
