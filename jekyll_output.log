@@ -1,0 +1,6 @@
+Configuration file: /app/_config.yml
+Configuration file: /app/_config.yml
+            Source: /app
+       Destination: /app/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
